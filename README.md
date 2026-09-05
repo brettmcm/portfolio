@@ -10,7 +10,7 @@ Content note: Personal copy is a draft. The main experience section is a discipl
 
 ## Case-study template
 
-Preview `/work/canary`, `/work/bloop`, or `/work/dusty-times` on the local server. No homepage links have been added. Each case study preserves the source narrative and project media from brettmcm.com (September 4, 2026). The original site's related-project navigation is intentionally omitted until local work navigation is defined.
+Preview `/work/canary`, `/work/bloop`, or `/work/dusty-times` on the local server. A compact logo row below Selected work links to all three case studies. Each case study preserves the source narrative and project media from brettmcm.com (September 4, 2026). The original site's related-project navigation is intentionally omitted until local work navigation is defined.
 
 - `work/canary/content.mjs`: ordered content and image properties.
 - `work/bloop/content.mjs`: Bloop narrative and media.
@@ -21,3 +21,20 @@ Preview `/work/canary`, `/work/bloop`, or `/work/dusty-times` on the local serve
 - `work/case-study.js`: contents navigation, scroll indicator, and animation pause/play with reduced-motion support.
 
 After changing content or renderers, run `node work/build.mjs`. The generated case-study HTML is ready for static hosting and works without JavaScript; JavaScript adds only navigation feedback and animation controls. To add a case study, supply another content object to `renderCaseStudy` and add its output to the build script. No framework or dependencies required.
+
+## Responsive images
+
+All 59 published raster images (including animations) use generated WebP candidates, intrinsic dimensions, and CSS-aware `sizes`/`srcset`. Case-study heroes load eagerly with high priority; remaining images load lazily and decode asynchronously. SVG logos remain resolution-independent. The homepage gallery is static HTML, including Scope, so responsive candidates are available before JavaScript runs.
+
+Generated assets and `images/responsive-manifest.json` are committed: hosting and preview still need no dependencies or build step. Originals remain untouched. Candidate widths range from 240 to 2400 pixels, never exceeding the original. Filenames include a source/settings hash for cache invalidation. Animated WebP preserves frame timing and looping, and pause/play temporarily removes and restores `srcset`.
+
+After adding or replacing an image, regenerate using Python 3 with Pillow (WebP support) and Node 22+:
+
+```sh
+python3 scripts/build-images.py
+node scripts/build-home-images.mjs
+node work/build.mjs
+node --test work/blocks.test.mjs scripts/images.test.mjs
+```
+
+For homepage images, `data-image-original` points to the editable original; add new images with their original `src`, or update `data-image-original` to replace an existing image. Case-study sources stay in each `content.mjs`. The generator discovers only published images. Existing hashed variants are reused on subsequent builds. Keep the `sizes` fallbacks in `scripts/responsive-images.mjs` aligned with layout changes; browsers supporting `sizes="auto"` use the actual rendered width for lazy images.

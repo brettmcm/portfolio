@@ -1,0 +1,2539 @@
+{
+  "/images/apeak-sign.jpg": {
+    "width": 1920,
+    "height": 1080,
+    "animated": false,
+    "originalBytes": 120456,
+    "variants": [
+      {
+        "src": "/images/responsive/apeak-sign-39b1db8007-240.webp",
+        "width": 240,
+        "bytes": 1664
+      },
+      {
+        "src": "/images/responsive/apeak-sign-39b1db8007-320.webp",
+        "width": 320,
+        "bytes": 2288
+      },
+      {
+        "src": "/images/responsive/apeak-sign-39b1db8007-480.webp",
+        "width": 480,
+        "bytes": 3926
+      },
+      {
+        "src": "/images/responsive/apeak-sign-39b1db8007-640.webp",
+        "width": 640,
+        "bytes": 5716
+      },
+      {
+        "src": "/images/responsive/apeak-sign-39b1db8007-960.webp",
+        "width": 960,
+        "bytes": 9690
+      },
+      {
+        "src": "/images/responsive/apeak-sign-39b1db8007-1280.webp",
+        "width": 1280,
+        "bytes": 13568
+      },
+      {
+        "src": "/images/responsive/apeak-sign-39b1db8007-1600.webp",
+        "width": 1600,
+        "bytes": 19052
+      },
+      {
+        "src": "/images/responsive/apeak-sign-39b1db8007-1920.webp",
+        "width": 1920,
+        "bytes": 26428
+      }
+    ]
+  },
+  "/images/bloop-icon.jpg": {
+    "width": 1920,
+    "height": 1080,
+    "animated": false,
+    "originalBytes": 183374,
+    "variants": [
+      {
+        "src": "/images/responsive/bloop-icon-7de1e11705-240.webp",
+        "width": 240,
+        "bytes": 4604
+      },
+      {
+        "src": "/images/responsive/bloop-icon-7de1e11705-320.webp",
+        "width": 320,
+        "bytes": 6406
+      },
+      {
+        "src": "/images/responsive/bloop-icon-7de1e11705-480.webp",
+        "width": 480,
+        "bytes": 10488
+      },
+      {
+        "src": "/images/responsive/bloop-icon-7de1e11705-640.webp",
+        "width": 640,
+        "bytes": 15130
+      },
+      {
+        "src": "/images/responsive/bloop-icon-7de1e11705-960.webp",
+        "width": 960,
+        "bytes": 26110
+      },
+      {
+        "src": "/images/responsive/bloop-icon-7de1e11705-1280.webp",
+        "width": 1280,
+        "bytes": 39402
+      },
+      {
+        "src": "/images/responsive/bloop-icon-7de1e11705-1600.webp",
+        "width": 1600,
+        "bytes": 52878
+      },
+      {
+        "src": "/images/responsive/bloop-icon-7de1e11705-1920.webp",
+        "width": 1920,
+        "bytes": 70388
+      }
+    ]
+  },
+  "/images/bloop/creative-01-BXLFZ2fW.webp": {
+    "width": 1420,
+    "height": 1498,
+    "animated": false,
+    "originalBytes": 161670,
+    "variants": [
+      {
+        "src": "/images/responsive/bloop/creative-01-BXLFZ2fW-c7d0e10e18-240.webp",
+        "width": 240,
+        "bytes": 2564
+      },
+      {
+        "src": "/images/responsive/bloop/creative-01-BXLFZ2fW-c7d0e10e18-320.webp",
+        "width": 320,
+        "bytes": 4076
+      },
+      {
+        "src": "/images/responsive/bloop/creative-01-BXLFZ2fW-c7d0e10e18-480.webp",
+        "width": 480,
+        "bytes": 11510
+      },
+      {
+        "src": "/images/responsive/bloop/creative-01-BXLFZ2fW-c7d0e10e18-640.webp",
+        "width": 640,
+        "bytes": 28946
+      },
+      {
+        "src": "/images/responsive/bloop/creative-01-BXLFZ2fW-c7d0e10e18-960.webp",
+        "width": 960,
+        "bytes": 74874
+      },
+      {
+        "src": "/images/responsive/bloop/creative-01-BXLFZ2fW-c7d0e10e18-1280.webp",
+        "width": 1280,
+        "bytes": 121172
+      },
+      {
+        "src": "/images/responsive/bloop/creative-01-BXLFZ2fW-c7d0e10e18-1420.webp",
+        "width": 1420,
+        "bytes": 154134
+      }
+    ]
+  },
+  "/images/bloop/creative-02-Pe5mLnHJ.webp": {
+    "width": 1420,
+    "height": 1498,
+    "animated": false,
+    "originalBytes": 171594,
+    "variants": [
+      {
+        "src": "/images/responsive/bloop/creative-02-Pe5mLnHJ-d04a745951-240.webp",
+        "width": 240,
+        "bytes": 9776
+      },
+      {
+        "src": "/images/responsive/bloop/creative-02-Pe5mLnHJ-d04a745951-320.webp",
+        "width": 320,
+        "bytes": 15036
+      },
+      {
+        "src": "/images/responsive/bloop/creative-02-Pe5mLnHJ-d04a745951-480.webp",
+        "width": 480,
+        "bytes": 27422
+      },
+      {
+        "src": "/images/responsive/bloop/creative-02-Pe5mLnHJ-d04a745951-640.webp",
+        "width": 640,
+        "bytes": 44206
+      },
+      {
+        "src": "/images/responsive/bloop/creative-02-Pe5mLnHJ-d04a745951-960.webp",
+        "width": 960,
+        "bytes": 81694
+      },
+      {
+        "src": "/images/responsive/bloop/creative-02-Pe5mLnHJ-d04a745951-1280.webp",
+        "width": 1280,
+        "bytes": 123518
+      },
+      {
+        "src": "/images/responsive/bloop/creative-02-Pe5mLnHJ-d04a745951-1420.webp",
+        "width": 1420,
+        "bytes": 152772
+      }
+    ]
+  },
+  "/images/bloop/disrupt-01-sfT5gt38.webp": {
+    "width": 1428,
+    "height": 804,
+    "animated": false,
+    "originalBytes": 167356,
+    "variants": [
+      {
+        "src": "/images/responsive/bloop/disrupt-01-sfT5gt38-b3c67d5ce6-240.webp",
+        "width": 240,
+        "bytes": 7466
+      },
+      {
+        "src": "/images/responsive/bloop/disrupt-01-sfT5gt38-b3c67d5ce6-320.webp",
+        "width": 320,
+        "bytes": 11958
+      },
+      {
+        "src": "/images/responsive/bloop/disrupt-01-sfT5gt38-b3c67d5ce6-480.webp",
+        "width": 480,
+        "bytes": 22540
+      },
+      {
+        "src": "/images/responsive/bloop/disrupt-01-sfT5gt38-b3c67d5ce6-640.webp",
+        "width": 640,
+        "bytes": 37630
+      },
+      {
+        "src": "/images/responsive/bloop/disrupt-01-sfT5gt38-b3c67d5ce6-960.webp",
+        "width": 960,
+        "bytes": 78098
+      },
+      {
+        "src": "/images/responsive/bloop/disrupt-01-sfT5gt38-b3c67d5ce6-1280.webp",
+        "width": 1280,
+        "bytes": 125336
+      },
+      {
+        "src": "/images/responsive/bloop/disrupt-01-sfT5gt38-b3c67d5ce6-1428.webp",
+        "width": 1428,
+        "bytes": 155846
+      }
+    ]
+  },
+  "/images/bloop/disrupt-02-CJkvixBE.webp": {
+    "width": 1344,
+    "height": 704,
+    "animated": false,
+    "originalBytes": 28718,
+    "variants": [
+      {
+        "src": "/images/responsive/bloop/disrupt-02-CJkvixBE-80e4e87a5d-240.webp",
+        "width": 240,
+        "bytes": 1962
+      },
+      {
+        "src": "/images/responsive/bloop/disrupt-02-CJkvixBE-80e4e87a5d-320.webp",
+        "width": 320,
+        "bytes": 2680
+      },
+      {
+        "src": "/images/responsive/bloop/disrupt-02-CJkvixBE-80e4e87a5d-480.webp",
+        "width": 480,
+        "bytes": 3966
+      },
+      {
+        "src": "/images/responsive/bloop/disrupt-02-CJkvixBE-80e4e87a5d-640.webp",
+        "width": 640,
+        "bytes": 5508
+      },
+      {
+        "src": "/images/responsive/bloop/disrupt-02-CJkvixBE-80e4e87a5d-960.webp",
+        "width": 960,
+        "bytes": 9380
+      },
+      {
+        "src": "/images/responsive/bloop/disrupt-02-CJkvixBE-80e4e87a5d-1280.webp",
+        "width": 1280,
+        "bytes": 16020
+      },
+      {
+        "src": "/images/responsive/bloop/disrupt-02-CJkvixBE-80e4e87a5d-1344.webp",
+        "width": 1344,
+        "bytes": 24408
+      }
+    ]
+  },
+  "/images/bloop/hero-Dxph4Y12.webp": {
+    "width": 1524,
+    "height": 850,
+    "animated": false,
+    "originalBytes": 139876,
+    "variants": [
+      {
+        "src": "/images/responsive/bloop/hero-Dxph4Y12-85862fe294-240.webp",
+        "width": 240,
+        "bytes": 3438
+      },
+      {
+        "src": "/images/responsive/bloop/hero-Dxph4Y12-85862fe294-320.webp",
+        "width": 320,
+        "bytes": 4766
+      },
+      {
+        "src": "/images/responsive/bloop/hero-Dxph4Y12-85862fe294-480.webp",
+        "width": 480,
+        "bytes": 8036
+      },
+      {
+        "src": "/images/responsive/bloop/hero-Dxph4Y12-85862fe294-640.webp",
+        "width": 640,
+        "bytes": 13044
+      },
+      {
+        "src": "/images/responsive/bloop/hero-Dxph4Y12-85862fe294-960.webp",
+        "width": 960,
+        "bytes": 37680
+      },
+      {
+        "src": "/images/responsive/bloop/hero-Dxph4Y12-85862fe294-1280.webp",
+        "width": 1280,
+        "bytes": 82868
+      },
+      {
+        "src": "/images/responsive/bloop/hero-Dxph4Y12-85862fe294-1524.webp",
+        "width": 1524,
+        "bytes": 139804
+      }
+    ]
+  },
+  "/images/bloop/photoshoot-00-COAv23_b.webp": {
+    "width": 1232,
+    "height": 1250,
+    "animated": false,
+    "originalBytes": 64162,
+    "variants": [
+      {
+        "src": "/images/responsive/bloop/photoshoot-00-COAv23_b-861b29f99e-240.webp",
+        "width": 240,
+        "bytes": 6480
+      },
+      {
+        "src": "/images/responsive/bloop/photoshoot-00-COAv23_b-861b29f99e-320.webp",
+        "width": 320,
+        "bytes": 9252
+      },
+      {
+        "src": "/images/responsive/bloop/photoshoot-00-COAv23_b-861b29f99e-480.webp",
+        "width": 480,
+        "bytes": 15480
+      },
+      {
+        "src": "/images/responsive/bloop/photoshoot-00-COAv23_b-861b29f99e-640.webp",
+        "width": 640,
+        "bytes": 23624
+      },
+      {
+        "src": "/images/responsive/bloop/photoshoot-00-COAv23_b-861b29f99e-960.webp",
+        "width": 960,
+        "bytes": 42202
+      },
+      {
+        "src": "/images/responsive/bloop/photoshoot-00-COAv23_b-861b29f99e-1232.webp",
+        "width": 1232,
+        "bytes": 61764
+      }
+    ]
+  },
+  "/images/bloop/photoshoot-01-DJLZ1M5T.webp": {
+    "width": 1340,
+    "height": 1345,
+    "animated": false,
+    "originalBytes": 160948,
+    "variants": [
+      {
+        "src": "/images/responsive/bloop/photoshoot-01-DJLZ1M5T-38f9b37c82-240.webp",
+        "width": 240,
+        "bytes": 9924
+      },
+      {
+        "src": "/images/responsive/bloop/photoshoot-01-DJLZ1M5T-38f9b37c82-320.webp",
+        "width": 320,
+        "bytes": 15466
+      },
+      {
+        "src": "/images/responsive/bloop/photoshoot-01-DJLZ1M5T-38f9b37c82-480.webp",
+        "width": 480,
+        "bytes": 29902
+      },
+      {
+        "src": "/images/responsive/bloop/photoshoot-01-DJLZ1M5T-38f9b37c82-640.webp",
+        "width": 640,
+        "bytes": 48110
+      },
+      {
+        "src": "/images/responsive/bloop/photoshoot-01-DJLZ1M5T-38f9b37c82-960.webp",
+        "width": 960,
+        "bytes": 92178
+      },
+      {
+        "src": "/images/responsive/bloop/photoshoot-01-DJLZ1M5T-38f9b37c82-1280.webp",
+        "width": 1280,
+        "bytes": 139860
+      },
+      {
+        "src": "/images/responsive/bloop/photoshoot-01-DJLZ1M5T-38f9b37c82-1340.webp",
+        "width": 1340,
+        "bytes": 153134
+      }
+    ]
+  },
+  "/images/bloop/photoshoot-02-DZK7Io-G.webp": {
+    "width": 1340,
+    "height": 1345,
+    "animated": false,
+    "originalBytes": 50320,
+    "variants": [
+      {
+        "src": "/images/responsive/bloop/photoshoot-02-DZK7Io-G-b599e4a423-240.webp",
+        "width": 240,
+        "bytes": 5508
+      },
+      {
+        "src": "/images/responsive/bloop/photoshoot-02-DZK7Io-G-b599e4a423-320.webp",
+        "width": 320,
+        "bytes": 7742
+      },
+      {
+        "src": "/images/responsive/bloop/photoshoot-02-DZK7Io-G-b599e4a423-480.webp",
+        "width": 480,
+        "bytes": 12688
+      },
+      {
+        "src": "/images/responsive/bloop/photoshoot-02-DZK7Io-G-b599e4a423-640.webp",
+        "width": 640,
+        "bytes": 18386
+      },
+      {
+        "src": "/images/responsive/bloop/photoshoot-02-DZK7Io-G-b599e4a423-960.webp",
+        "width": 960,
+        "bytes": 31440
+      },
+      {
+        "src": "/images/responsive/bloop/photoshoot-02-DZK7Io-G-b599e4a423-1280.webp",
+        "width": 1280,
+        "bytes": 44630
+      },
+      {
+        "src": "/images/responsive/bloop/photoshoot-02-DZK7Io-G-b599e4a423-1340.webp",
+        "width": 1340,
+        "bytes": 47914
+      }
+    ]
+  },
+  "/images/bloop/photoshoot-03-Cw1bdqBN.webp": {
+    "width": 1340,
+    "height": 1345,
+    "animated": false,
+    "originalBytes": 66352,
+    "variants": [
+      {
+        "src": "/images/responsive/bloop/photoshoot-03-Cw1bdqBN-af3b9b350c-240.webp",
+        "width": 240,
+        "bytes": 6290
+      },
+      {
+        "src": "/images/responsive/bloop/photoshoot-03-Cw1bdqBN-af3b9b350c-320.webp",
+        "width": 320,
+        "bytes": 9258
+      },
+      {
+        "src": "/images/responsive/bloop/photoshoot-03-Cw1bdqBN-af3b9b350c-480.webp",
+        "width": 480,
+        "bytes": 15612
+      },
+      {
+        "src": "/images/responsive/bloop/photoshoot-03-Cw1bdqBN-af3b9b350c-640.webp",
+        "width": 640,
+        "bytes": 23826
+      },
+      {
+        "src": "/images/responsive/bloop/photoshoot-03-Cw1bdqBN-af3b9b350c-960.webp",
+        "width": 960,
+        "bytes": 41154
+      },
+      {
+        "src": "/images/responsive/bloop/photoshoot-03-Cw1bdqBN-af3b9b350c-1280.webp",
+        "width": 1280,
+        "bytes": 59332
+      },
+      {
+        "src": "/images/responsive/bloop/photoshoot-03-Cw1bdqBN-af3b9b350c-1340.webp",
+        "width": 1340,
+        "bytes": 63922
+      }
+    ]
+  },
+  "/images/bloop/photoshoot-04-4QkQdRMC.webp": {
+    "width": 1340,
+    "height": 1345,
+    "animated": false,
+    "originalBytes": 119348,
+    "variants": [
+      {
+        "src": "/images/responsive/bloop/photoshoot-04-4QkQdRMC-beb3285e3e-240.webp",
+        "width": 240,
+        "bytes": 11884
+      },
+      {
+        "src": "/images/responsive/bloop/photoshoot-04-4QkQdRMC-beb3285e3e-320.webp",
+        "width": 320,
+        "bytes": 17646
+      },
+      {
+        "src": "/images/responsive/bloop/photoshoot-04-4QkQdRMC-beb3285e3e-480.webp",
+        "width": 480,
+        "bytes": 30284
+      },
+      {
+        "src": "/images/responsive/bloop/photoshoot-04-4QkQdRMC-beb3285e3e-640.webp",
+        "width": 640,
+        "bytes": 43278
+      },
+      {
+        "src": "/images/responsive/bloop/photoshoot-04-4QkQdRMC-beb3285e3e-960.webp",
+        "width": 960,
+        "bytes": 72842
+      },
+      {
+        "src": "/images/responsive/bloop/photoshoot-04-4QkQdRMC-beb3285e3e-1280.webp",
+        "width": 1280,
+        "bytes": 102344
+      },
+      {
+        "src": "/images/responsive/bloop/photoshoot-04-4QkQdRMC-beb3285e3e-1340.webp",
+        "width": 1340,
+        "bytes": 111384
+      }
+    ]
+  },
+  "/images/canary-boxes.jpg": {
+    "width": 1920,
+    "height": 1080,
+    "animated": false,
+    "originalBytes": 210933,
+    "variants": [
+      {
+        "src": "/images/responsive/canary-boxes-1df11b29aa-240.webp",
+        "width": 240,
+        "bytes": 4956
+      },
+      {
+        "src": "/images/responsive/canary-boxes-1df11b29aa-320.webp",
+        "width": 320,
+        "bytes": 7176
+      },
+      {
+        "src": "/images/responsive/canary-boxes-1df11b29aa-480.webp",
+        "width": 480,
+        "bytes": 12252
+      },
+      {
+        "src": "/images/responsive/canary-boxes-1df11b29aa-640.webp",
+        "width": 640,
+        "bytes": 18214
+      },
+      {
+        "src": "/images/responsive/canary-boxes-1df11b29aa-960.webp",
+        "width": 960,
+        "bytes": 32386
+      },
+      {
+        "src": "/images/responsive/canary-boxes-1df11b29aa-1280.webp",
+        "width": 1280,
+        "bytes": 48602
+      },
+      {
+        "src": "/images/responsive/canary-boxes-1df11b29aa-1600.webp",
+        "width": 1600,
+        "bytes": 66790
+      },
+      {
+        "src": "/images/responsive/canary-boxes-1df11b29aa-1920.webp",
+        "width": 1920,
+        "bytes": 91212
+      }
+    ]
+  },
+  "/images/canary/brush-BjpHfMY3.gif": {
+    "width": 700,
+    "height": 700,
+    "animated": true,
+    "originalBytes": 2837515,
+    "variants": [
+      {
+        "src": "/images/responsive/canary/brush-BjpHfMY3-e4d4626299-240.webp",
+        "width": 240,
+        "bytes": 208956
+      },
+      {
+        "src": "/images/responsive/canary/brush-BjpHfMY3-e4d4626299-320.webp",
+        "width": 320,
+        "bytes": 336684
+      },
+      {
+        "src": "/images/responsive/canary/brush-BjpHfMY3-e4d4626299-480.webp",
+        "width": 480,
+        "bytes": 701960
+      },
+      {
+        "src": "/images/responsive/canary/brush-BjpHfMY3-e4d4626299-640.webp",
+        "width": 640,
+        "bytes": 1285064
+      },
+      {
+        "src": "/images/responsive/canary/brush-BjpHfMY3-e4d4626299-700.webp",
+        "width": 700,
+        "bytes": 1738256
+      }
+    ]
+  },
+  "/images/canary/challenge-01-Dord3L3k.webp": {
+    "width": 616,
+    "height": 625,
+    "animated": false,
+    "originalBytes": 30470,
+    "variants": [
+      {
+        "src": "/images/responsive/canary/challenge-01-Dord3L3k-28fe0275c3-240.webp",
+        "width": 240,
+        "bytes": 8234
+      },
+      {
+        "src": "/images/responsive/canary/challenge-01-Dord3L3k-28fe0275c3-320.webp",
+        "width": 320,
+        "bytes": 12038
+      },
+      {
+        "src": "/images/responsive/canary/challenge-01-Dord3L3k-28fe0275c3-480.webp",
+        "width": 480,
+        "bytes": 20416
+      },
+      {
+        "src": "/images/responsive/canary/challenge-01-Dord3L3k-28fe0275c3-616.webp",
+        "width": 616,
+        "bytes": 29016
+      }
+    ]
+  },
+  "/images/canary/challenge-02-Ba5Y9Gmy.webp": {
+    "width": 616,
+    "height": 625,
+    "animated": false,
+    "originalBytes": 23412,
+    "variants": [
+      {
+        "src": "/images/responsive/canary/challenge-02-Ba5Y9Gmy-fa2cf621e4-240.webp",
+        "width": 240,
+        "bytes": 5042
+      },
+      {
+        "src": "/images/responsive/canary/challenge-02-Ba5Y9Gmy-fa2cf621e4-320.webp",
+        "width": 320,
+        "bytes": 7690
+      },
+      {
+        "src": "/images/responsive/canary/challenge-02-Ba5Y9Gmy-fa2cf621e4-480.webp",
+        "width": 480,
+        "bytes": 13870
+      },
+      {
+        "src": "/images/responsive/canary/challenge-02-Ba5Y9Gmy-fa2cf621e4-616.webp",
+        "width": 616,
+        "bytes": 21956
+      }
+    ]
+  },
+  "/images/canary/challenge-03-B8_CojeN.webp": {
+    "width": 616,
+    "height": 625,
+    "animated": false,
+    "originalBytes": 17286,
+    "variants": [
+      {
+        "src": "/images/responsive/canary/challenge-03-B8_CojeN-e7d3dd75ad-240.webp",
+        "width": 240,
+        "bytes": 4046
+      },
+      {
+        "src": "/images/responsive/canary/challenge-03-B8_CojeN-e7d3dd75ad-320.webp",
+        "width": 320,
+        "bytes": 6064
+      },
+      {
+        "src": "/images/responsive/canary/challenge-03-B8_CojeN-e7d3dd75ad-480.webp",
+        "width": 480,
+        "bytes": 10568
+      },
+      {
+        "src": "/images/responsive/canary/challenge-03-B8_CojeN-e7d3dd75ad-616.webp",
+        "width": 616,
+        "bytes": 16206
+      }
+    ]
+  },
+  "/images/canary/challenge-04-BLG-zHGB.webp": {
+    "width": 616,
+    "height": 625,
+    "animated": false,
+    "originalBytes": 8132,
+    "variants": [
+      {
+        "src": "/images/responsive/canary/challenge-04-BLG-zHGB-880606f29d-240.webp",
+        "width": 240,
+        "bytes": 1906
+      },
+      {
+        "src": "/images/responsive/canary/challenge-04-BLG-zHGB-880606f29d-320.webp",
+        "width": 320,
+        "bytes": 2862
+      },
+      {
+        "src": "/images/responsive/canary/challenge-04-BLG-zHGB-880606f29d-480.webp",
+        "width": 480,
+        "bytes": 5166
+      },
+      {
+        "src": "/images/responsive/canary/challenge-04-BLG-zHGB-880606f29d-616.webp",
+        "width": 616,
+        "bytes": 7602
+      }
+    ]
+  },
+  "/images/canary/creative-01-DCMRuiev.webp": {
+    "width": 1340,
+    "height": 1345,
+    "animated": false,
+    "originalBytes": 226998,
+    "variants": [
+      {
+        "src": "/images/responsive/canary/creative-01-DCMRuiev-673d2412b2-240.webp",
+        "width": 240,
+        "bytes": 13086
+      },
+      {
+        "src": "/images/responsive/canary/creative-01-DCMRuiev-673d2412b2-320.webp",
+        "width": 320,
+        "bytes": 20370
+      },
+      {
+        "src": "/images/responsive/canary/creative-01-DCMRuiev-673d2412b2-480.webp",
+        "width": 480,
+        "bytes": 41118
+      },
+      {
+        "src": "/images/responsive/canary/creative-01-DCMRuiev-673d2412b2-640.webp",
+        "width": 640,
+        "bytes": 68984
+      },
+      {
+        "src": "/images/responsive/canary/creative-01-DCMRuiev-673d2412b2-960.webp",
+        "width": 960,
+        "bytes": 133414
+      },
+      {
+        "src": "/images/responsive/canary/creative-01-DCMRuiev-673d2412b2-1280.webp",
+        "width": 1280,
+        "bytes": 197098
+      },
+      {
+        "src": "/images/responsive/canary/creative-01-DCMRuiev-673d2412b2-1340.webp",
+        "width": 1340,
+        "bytes": 220002
+      }
+    ]
+  },
+  "/images/canary/creative-02-CjWp1EbB.webp": {
+    "width": 1340,
+    "height": 1345,
+    "animated": false,
+    "originalBytes": 153672,
+    "variants": [
+      {
+        "src": "/images/responsive/canary/creative-02-CjWp1EbB-e673ef155a-240.webp",
+        "width": 240,
+        "bytes": 3310
+      },
+      {
+        "src": "/images/responsive/canary/creative-02-CjWp1EbB-e673ef155a-320.webp",
+        "width": 320,
+        "bytes": 4874
+      },
+      {
+        "src": "/images/responsive/canary/creative-02-CjWp1EbB-e673ef155a-480.webp",
+        "width": 480,
+        "bytes": 10108
+      },
+      {
+        "src": "/images/responsive/canary/creative-02-CjWp1EbB-e673ef155a-640.webp",
+        "width": 640,
+        "bytes": 23452
+      },
+      {
+        "src": "/images/responsive/canary/creative-02-CjWp1EbB-e673ef155a-960.webp",
+        "width": 960,
+        "bytes": 68660
+      },
+      {
+        "src": "/images/responsive/canary/creative-02-CjWp1EbB-e673ef155a-1280.webp",
+        "width": 1280,
+        "bytes": 118826
+      },
+      {
+        "src": "/images/responsive/canary/creative-02-CjWp1EbB-e673ef155a-1340.webp",
+        "width": 1340,
+        "bytes": 144894
+      }
+    ]
+  },
+  "/images/canary/creative-04-CECOBg85.webp": {
+    "width": 1340,
+    "height": 1345,
+    "animated": false,
+    "originalBytes": 163836,
+    "variants": [
+      {
+        "src": "/images/responsive/canary/creative-04-CECOBg85-ff39f4ca26-240.webp",
+        "width": 240,
+        "bytes": 8212
+      },
+      {
+        "src": "/images/responsive/canary/creative-04-CECOBg85-ff39f4ca26-320.webp",
+        "width": 320,
+        "bytes": 14180
+      },
+      {
+        "src": "/images/responsive/canary/creative-04-CECOBg85-ff39f4ca26-480.webp",
+        "width": 480,
+        "bytes": 30210
+      },
+      {
+        "src": "/images/responsive/canary/creative-04-CECOBg85-ff39f4ca26-640.webp",
+        "width": 640,
+        "bytes": 50516
+      },
+      {
+        "src": "/images/responsive/canary/creative-04-CECOBg85-ff39f4ca26-960.webp",
+        "width": 960,
+        "bytes": 97546
+      },
+      {
+        "src": "/images/responsive/canary/creative-04-CECOBg85-ff39f4ca26-1280.webp",
+        "width": 1280,
+        "bytes": 143638
+      },
+      {
+        "src": "/images/responsive/canary/creative-04-CECOBg85-ff39f4ca26-1340.webp",
+        "width": 1340,
+        "bytes": 159490
+      }
+    ]
+  },
+  "/images/canary/creative-05-CaAskDmi.webp": {
+    "width": 1340,
+    "height": 1345,
+    "animated": false,
+    "originalBytes": 222960,
+    "variants": [
+      {
+        "src": "/images/responsive/canary/creative-05-CaAskDmi-f3f1b154ae-240.webp",
+        "width": 240,
+        "bytes": 2930
+      },
+      {
+        "src": "/images/responsive/canary/creative-05-CaAskDmi-f3f1b154ae-320.webp",
+        "width": 320,
+        "bytes": 5692
+      },
+      {
+        "src": "/images/responsive/canary/creative-05-CaAskDmi-f3f1b154ae-480.webp",
+        "width": 480,
+        "bytes": 18126
+      },
+      {
+        "src": "/images/responsive/canary/creative-05-CaAskDmi-f3f1b154ae-640.webp",
+        "width": 640,
+        "bytes": 41320
+      },
+      {
+        "src": "/images/responsive/canary/creative-05-CaAskDmi-f3f1b154ae-960.webp",
+        "width": 960,
+        "bytes": 112162
+      },
+      {
+        "src": "/images/responsive/canary/creative-05-CaAskDmi-f3f1b154ae-1280.webp",
+        "width": 1280,
+        "bytes": 185618
+      },
+      {
+        "src": "/images/responsive/canary/creative-05-CaAskDmi-f3f1b154ae-1340.webp",
+        "width": 1340,
+        "bytes": 215412
+      }
+    ]
+  },
+  "/images/canary/creative-06-C_VHbDqd.webp": {
+    "width": 1340,
+    "height": 1345,
+    "animated": false,
+    "originalBytes": 129644,
+    "variants": [
+      {
+        "src": "/images/responsive/canary/creative-06-C_VHbDqd-a14e5cb730-240.webp",
+        "width": 240,
+        "bytes": 6960
+      },
+      {
+        "src": "/images/responsive/canary/creative-06-C_VHbDqd-a14e5cb730-320.webp",
+        "width": 320,
+        "bytes": 10926
+      },
+      {
+        "src": "/images/responsive/canary/creative-06-C_VHbDqd-a14e5cb730-480.webp",
+        "width": 480,
+        "bytes": 22294
+      },
+      {
+        "src": "/images/responsive/canary/creative-06-C_VHbDqd-a14e5cb730-640.webp",
+        "width": 640,
+        "bytes": 37456
+      },
+      {
+        "src": "/images/responsive/canary/creative-06-C_VHbDqd-a14e5cb730-960.webp",
+        "width": 960,
+        "bytes": 72286
+      },
+      {
+        "src": "/images/responsive/canary/creative-06-C_VHbDqd-a14e5cb730-1280.webp",
+        "width": 1280,
+        "bytes": 107252
+      },
+      {
+        "src": "/images/responsive/canary/creative-06-C_VHbDqd-a14e5cb730-1340.webp",
+        "width": 1340,
+        "bytes": 121458
+      }
+    ]
+  },
+  "/images/canary/disrupt-01-Pgnt_xJK.webp": {
+    "width": 1428,
+    "height": 804,
+    "animated": false,
+    "originalBytes": 80968,
+    "variants": [
+      {
+        "src": "/images/responsive/canary/disrupt-01-Pgnt_xJK-ce21ce6853-240.webp",
+        "width": 240,
+        "bytes": 2158
+      },
+      {
+        "src": "/images/responsive/canary/disrupt-01-Pgnt_xJK-ce21ce6853-320.webp",
+        "width": 320,
+        "bytes": 3116
+      },
+      {
+        "src": "/images/responsive/canary/disrupt-01-Pgnt_xJK-ce21ce6853-480.webp",
+        "width": 480,
+        "bytes": 5640
+      },
+      {
+        "src": "/images/responsive/canary/disrupt-01-Pgnt_xJK-ce21ce6853-640.webp",
+        "width": 640,
+        "bytes": 9194
+      },
+      {
+        "src": "/images/responsive/canary/disrupt-01-Pgnt_xJK-ce21ce6853-960.webp",
+        "width": 960,
+        "bytes": 21286
+      },
+      {
+        "src": "/images/responsive/canary/disrupt-01-Pgnt_xJK-ce21ce6853-1280.webp",
+        "width": 1280,
+        "bytes": 41130
+      },
+      {
+        "src": "/images/responsive/canary/disrupt-01-Pgnt_xJK-ce21ce6853-1428.webp",
+        "width": 1428,
+        "bytes": 62540
+      }
+    ]
+  },
+  "/images/canary/disrupt-02-XfP4pOww.webp": {
+    "width": 1344,
+    "height": 704,
+    "animated": false,
+    "originalBytes": 138108,
+    "variants": [
+      {
+        "src": "/images/responsive/canary/disrupt-02-XfP4pOww-25de2f50c8-240.webp",
+        "width": 240,
+        "bytes": 8862
+      },
+      {
+        "src": "/images/responsive/canary/disrupt-02-XfP4pOww-25de2f50c8-320.webp",
+        "width": 320,
+        "bytes": 14622
+      },
+      {
+        "src": "/images/responsive/canary/disrupt-02-XfP4pOww-25de2f50c8-480.webp",
+        "width": 480,
+        "bytes": 28172
+      },
+      {
+        "src": "/images/responsive/canary/disrupt-02-XfP4pOww-25de2f50c8-640.webp",
+        "width": 640,
+        "bytes": 43114
+      },
+      {
+        "src": "/images/responsive/canary/disrupt-02-XfP4pOww-25de2f50c8-960.webp",
+        "width": 960,
+        "bytes": 80370
+      },
+      {
+        "src": "/images/responsive/canary/disrupt-02-XfP4pOww-25de2f50c8-1280.webp",
+        "width": 1280,
+        "bytes": 116616
+      },
+      {
+        "src": "/images/responsive/canary/disrupt-02-XfP4pOww-25de2f50c8-1344.webp",
+        "width": 1344,
+        "bytes": 132534
+      }
+    ]
+  },
+  "/images/canary/hero-DtRu36Gc.webp": {
+    "width": 1524,
+    "height": 738,
+    "animated": false,
+    "originalBytes": 164902,
+    "variants": [
+      {
+        "src": "/images/responsive/canary/hero-DtRu36Gc-4c0a822b76-240.webp",
+        "width": 240,
+        "bytes": 5500
+      },
+      {
+        "src": "/images/responsive/canary/hero-DtRu36Gc-4c0a822b76-320.webp",
+        "width": 320,
+        "bytes": 8588
+      },
+      {
+        "src": "/images/responsive/canary/hero-DtRu36Gc-4c0a822b76-480.webp",
+        "width": 480,
+        "bytes": 16050
+      },
+      {
+        "src": "/images/responsive/canary/hero-DtRu36Gc-4c0a822b76-640.webp",
+        "width": 640,
+        "bytes": 26778
+      },
+      {
+        "src": "/images/responsive/canary/hero-DtRu36Gc-4c0a822b76-960.webp",
+        "width": 960,
+        "bytes": 54110
+      },
+      {
+        "src": "/images/responsive/canary/hero-DtRu36Gc-4c0a822b76-1280.webp",
+        "width": 1280,
+        "bytes": 90852
+      },
+      {
+        "src": "/images/responsive/canary/hero-DtRu36Gc-4c0a822b76-1524.webp",
+        "width": 1524,
+        "bytes": 155812
+      }
+    ]
+  },
+  "/images/canary/photoshoot-01-DIMdDrf9.webp": {
+    "width": 1096,
+    "height": 729,
+    "animated": false,
+    "originalBytes": 142898,
+    "variants": [
+      {
+        "src": "/images/responsive/canary/photoshoot-01-DIMdDrf9-a83e3af51d-240.webp",
+        "width": 240,
+        "bytes": 8506
+      },
+      {
+        "src": "/images/responsive/canary/photoshoot-01-DIMdDrf9-a83e3af51d-320.webp",
+        "width": 320,
+        "bytes": 13102
+      },
+      {
+        "src": "/images/responsive/canary/photoshoot-01-DIMdDrf9-a83e3af51d-480.webp",
+        "width": 480,
+        "bytes": 24954
+      },
+      {
+        "src": "/images/responsive/canary/photoshoot-01-DIMdDrf9-a83e3af51d-640.webp",
+        "width": 640,
+        "bytes": 41276
+      },
+      {
+        "src": "/images/responsive/canary/photoshoot-01-DIMdDrf9-a83e3af51d-960.webp",
+        "width": 960,
+        "bytes": 90260
+      },
+      {
+        "src": "/images/responsive/canary/photoshoot-01-DIMdDrf9-a83e3af51d-1096.webp",
+        "width": 1096,
+        "bytes": 134794
+      }
+    ]
+  },
+  "/images/canary/photoshoot-02-3ipTovK8.webp": {
+    "width": 867,
+    "height": 729,
+    "animated": false,
+    "originalBytes": 35328,
+    "variants": [
+      {
+        "src": "/images/responsive/canary/photoshoot-02-3ipTovK8-69830edff3-240.webp",
+        "width": 240,
+        "bytes": 5452
+      },
+      {
+        "src": "/images/responsive/canary/photoshoot-02-3ipTovK8-69830edff3-320.webp",
+        "width": 320,
+        "bytes": 8212
+      },
+      {
+        "src": "/images/responsive/canary/photoshoot-02-3ipTovK8-69830edff3-480.webp",
+        "width": 480,
+        "bytes": 14920
+      },
+      {
+        "src": "/images/responsive/canary/photoshoot-02-3ipTovK8-69830edff3-640.webp",
+        "width": 640,
+        "bytes": 22302
+      },
+      {
+        "src": "/images/responsive/canary/photoshoot-02-3ipTovK8-69830edff3-867.webp",
+        "width": 867,
+        "bytes": 34234
+      }
+    ]
+  },
+  "/images/canary/photoshoot-03-CbHm4phk.webp": {
+    "width": 1096,
+    "height": 729,
+    "animated": false,
+    "originalBytes": 100254,
+    "variants": [
+      {
+        "src": "/images/responsive/canary/photoshoot-03-CbHm4phk-4e2e391562-240.webp",
+        "width": 240,
+        "bytes": 6858
+      },
+      {
+        "src": "/images/responsive/canary/photoshoot-03-CbHm4phk-4e2e391562-320.webp",
+        "width": 320,
+        "bytes": 11366
+      },
+      {
+        "src": "/images/responsive/canary/photoshoot-03-CbHm4phk-4e2e391562-480.webp",
+        "width": 480,
+        "bytes": 23272
+      },
+      {
+        "src": "/images/responsive/canary/photoshoot-03-CbHm4phk-4e2e391562-640.webp",
+        "width": 640,
+        "bytes": 39790
+      },
+      {
+        "src": "/images/responsive/canary/photoshoot-03-CbHm4phk-4e2e391562-960.webp",
+        "width": 960,
+        "bytes": 76898
+      },
+      {
+        "src": "/images/responsive/canary/photoshoot-03-CbHm4phk-4e2e391562-1096.webp",
+        "width": 1096,
+        "bytes": 97728
+      }
+    ]
+  },
+  "/images/canary/photoshoot-04-BLyR45jv.webp": {
+    "width": 867,
+    "height": 729,
+    "animated": false,
+    "originalBytes": 41586,
+    "variants": [
+      {
+        "src": "/images/responsive/canary/photoshoot-04-BLyR45jv-fa2e693f70-240.webp",
+        "width": 240,
+        "bytes": 5498
+      },
+      {
+        "src": "/images/responsive/canary/photoshoot-04-BLyR45jv-fa2e693f70-320.webp",
+        "width": 320,
+        "bytes": 8440
+      },
+      {
+        "src": "/images/responsive/canary/photoshoot-04-BLyR45jv-fa2e693f70-480.webp",
+        "width": 480,
+        "bytes": 16020
+      },
+      {
+        "src": "/images/responsive/canary/photoshoot-04-BLyR45jv-fa2e693f70-640.webp",
+        "width": 640,
+        "bytes": 24664
+      },
+      {
+        "src": "/images/responsive/canary/photoshoot-04-BLyR45jv-fa2e693f70-867.webp",
+        "width": 867,
+        "bytes": 40672
+      }
+    ]
+  },
+  "/images/canary/scout-01-CA7Vz_2U.webp": {
+    "width": 1420,
+    "height": 1098,
+    "animated": false,
+    "originalBytes": 50070,
+    "variants": [
+      {
+        "src": "/images/responsive/canary/scout-01-CA7Vz_2U-1a6aa82a0c-240.webp",
+        "width": 240,
+        "bytes": 5030
+      },
+      {
+        "src": "/images/responsive/canary/scout-01-CA7Vz_2U-1a6aa82a0c-320.webp",
+        "width": 320,
+        "bytes": 7206
+      },
+      {
+        "src": "/images/responsive/canary/scout-01-CA7Vz_2U-1a6aa82a0c-480.webp",
+        "width": 480,
+        "bytes": 12030
+      },
+      {
+        "src": "/images/responsive/canary/scout-01-CA7Vz_2U-1a6aa82a0c-640.webp",
+        "width": 640,
+        "bytes": 16918
+      },
+      {
+        "src": "/images/responsive/canary/scout-01-CA7Vz_2U-1a6aa82a0c-960.webp",
+        "width": 960,
+        "bytes": 27864
+      },
+      {
+        "src": "/images/responsive/canary/scout-01-CA7Vz_2U-1a6aa82a0c-1280.webp",
+        "width": 1280,
+        "bytes": 39332
+      },
+      {
+        "src": "/images/responsive/canary/scout-01-CA7Vz_2U-1a6aa82a0c-1420.webp",
+        "width": 1420,
+        "bytes": 45958
+      }
+    ]
+  },
+  "/images/canary/scout-02-EJMfcjwj.webp": {
+    "width": 1420,
+    "height": 1098,
+    "animated": false,
+    "originalBytes": 107478,
+    "variants": [
+      {
+        "src": "/images/responsive/canary/scout-02-EJMfcjwj-7b970f2413-240.webp",
+        "width": 240,
+        "bytes": 4636
+      },
+      {
+        "src": "/images/responsive/canary/scout-02-EJMfcjwj-7b970f2413-320.webp",
+        "width": 320,
+        "bytes": 6774
+      },
+      {
+        "src": "/images/responsive/canary/scout-02-EJMfcjwj-7b970f2413-480.webp",
+        "width": 480,
+        "bytes": 12034
+      },
+      {
+        "src": "/images/responsive/canary/scout-02-EJMfcjwj-7b970f2413-640.webp",
+        "width": 640,
+        "bytes": 18326
+      },
+      {
+        "src": "/images/responsive/canary/scout-02-EJMfcjwj-7b970f2413-960.webp",
+        "width": 960,
+        "bytes": 36874
+      },
+      {
+        "src": "/images/responsive/canary/scout-02-EJMfcjwj-7b970f2413-1280.webp",
+        "width": 1280,
+        "bytes": 65314
+      },
+      {
+        "src": "/images/responsive/canary/scout-02-EJMfcjwj-7b970f2413-1420.webp",
+        "width": 1420,
+        "bytes": 100864
+      }
+    ]
+  },
+  "/images/dt-3stack.jpg": {
+    "width": 1920,
+    "height": 1080,
+    "animated": false,
+    "originalBytes": 168843,
+    "variants": [
+      {
+        "src": "/images/responsive/dt-3stack-155141307a-240.webp",
+        "width": 240,
+        "bytes": 3048
+      },
+      {
+        "src": "/images/responsive/dt-3stack-155141307a-320.webp",
+        "width": 320,
+        "bytes": 4292
+      },
+      {
+        "src": "/images/responsive/dt-3stack-155141307a-480.webp",
+        "width": 480,
+        "bytes": 7026
+      },
+      {
+        "src": "/images/responsive/dt-3stack-155141307a-640.webp",
+        "width": 640,
+        "bytes": 10664
+      },
+      {
+        "src": "/images/responsive/dt-3stack-155141307a-960.webp",
+        "width": 960,
+        "bytes": 18764
+      },
+      {
+        "src": "/images/responsive/dt-3stack-155141307a-1280.webp",
+        "width": 1280,
+        "bytes": 27814
+      },
+      {
+        "src": "/images/responsive/dt-3stack-155141307a-1600.webp",
+        "width": 1600,
+        "bytes": 39136
+      },
+      {
+        "src": "/images/responsive/dt-3stack-155141307a-1920.webp",
+        "width": 1920,
+        "bytes": 54328
+      }
+    ]
+  },
+  "/images/dt-coin.jpg": {
+    "width": 1920,
+    "height": 1080,
+    "animated": false,
+    "originalBytes": 256968,
+    "variants": [
+      {
+        "src": "/images/responsive/dt-coin-9ac9f9deba-240.webp",
+        "width": 240,
+        "bytes": 5524
+      },
+      {
+        "src": "/images/responsive/dt-coin-9ac9f9deba-320.webp",
+        "width": 320,
+        "bytes": 9204
+      },
+      {
+        "src": "/images/responsive/dt-coin-9ac9f9deba-480.webp",
+        "width": 480,
+        "bytes": 18620
+      },
+      {
+        "src": "/images/responsive/dt-coin-9ac9f9deba-640.webp",
+        "width": 640,
+        "bytes": 29754
+      },
+      {
+        "src": "/images/responsive/dt-coin-9ac9f9deba-960.webp",
+        "width": 960,
+        "bytes": 54678
+      },
+      {
+        "src": "/images/responsive/dt-coin-9ac9f9deba-1280.webp",
+        "width": 1280,
+        "bytes": 80336
+      },
+      {
+        "src": "/images/responsive/dt-coin-9ac9f9deba-1600.webp",
+        "width": 1600,
+        "bytes": 106390
+      },
+      {
+        "src": "/images/responsive/dt-coin-9ac9f9deba-1920.webp",
+        "width": 1920,
+        "bytes": 135436
+      }
+    ]
+  },
+  "/images/dt-crest.jpg": {
+    "width": 1920,
+    "height": 1080,
+    "animated": false,
+    "originalBytes": 161883,
+    "variants": [
+      {
+        "src": "/images/responsive/dt-crest-8f6dfaafd2-240.webp",
+        "width": 240,
+        "bytes": 1744
+      },
+      {
+        "src": "/images/responsive/dt-crest-8f6dfaafd2-320.webp",
+        "width": 320,
+        "bytes": 3156
+      },
+      {
+        "src": "/images/responsive/dt-crest-8f6dfaafd2-480.webp",
+        "width": 480,
+        "bytes": 6760
+      },
+      {
+        "src": "/images/responsive/dt-crest-8f6dfaafd2-640.webp",
+        "width": 640,
+        "bytes": 10564
+      },
+      {
+        "src": "/images/responsive/dt-crest-8f6dfaafd2-960.webp",
+        "width": 960,
+        "bytes": 20008
+      },
+      {
+        "src": "/images/responsive/dt-crest-8f6dfaafd2-1280.webp",
+        "width": 1280,
+        "bytes": 29842
+      },
+      {
+        "src": "/images/responsive/dt-crest-8f6dfaafd2-1600.webp",
+        "width": 1600,
+        "bytes": 42388
+      },
+      {
+        "src": "/images/responsive/dt-crest-8f6dfaafd2-1920.webp",
+        "width": 1920,
+        "bytes": 57470
+      }
+    ]
+  },
+  "/images/dt-photo.jpg": {
+    "width": 1920,
+    "height": 1080,
+    "animated": false,
+    "originalBytes": 285484,
+    "variants": [
+      {
+        "src": "/images/responsive/dt-photo-a1aa9ce391-240.webp",
+        "width": 240,
+        "bytes": 6500
+      },
+      {
+        "src": "/images/responsive/dt-photo-a1aa9ce391-320.webp",
+        "width": 320,
+        "bytes": 9876
+      },
+      {
+        "src": "/images/responsive/dt-photo-a1aa9ce391-480.webp",
+        "width": 480,
+        "bytes": 18744
+      },
+      {
+        "src": "/images/responsive/dt-photo-a1aa9ce391-640.webp",
+        "width": 640,
+        "bytes": 29230
+      },
+      {
+        "src": "/images/responsive/dt-photo-a1aa9ce391-960.webp",
+        "width": 960,
+        "bytes": 56584
+      },
+      {
+        "src": "/images/responsive/dt-photo-a1aa9ce391-1280.webp",
+        "width": 1280,
+        "bytes": 85298
+      },
+      {
+        "src": "/images/responsive/dt-photo-a1aa9ce391-1600.webp",
+        "width": 1600,
+        "bytes": 116498
+      },
+      {
+        "src": "/images/responsive/dt-photo-a1aa9ce391-1920.webp",
+        "width": 1920,
+        "bytes": 148932
+      }
+    ]
+  },
+  "/images/dt-shipper.jpg": {
+    "width": 1920,
+    "height": 1080,
+    "animated": false,
+    "originalBytes": 312970,
+    "variants": [
+      {
+        "src": "/images/responsive/dt-shipper-2e65348027-240.webp",
+        "width": 240,
+        "bytes": 8352
+      },
+      {
+        "src": "/images/responsive/dt-shipper-2e65348027-320.webp",
+        "width": 320,
+        "bytes": 12632
+      },
+      {
+        "src": "/images/responsive/dt-shipper-2e65348027-480.webp",
+        "width": 480,
+        "bytes": 22836
+      },
+      {
+        "src": "/images/responsive/dt-shipper-2e65348027-640.webp",
+        "width": 640,
+        "bytes": 34562
+      },
+      {
+        "src": "/images/responsive/dt-shipper-2e65348027-960.webp",
+        "width": 960,
+        "bytes": 65160
+      },
+      {
+        "src": "/images/responsive/dt-shipper-2e65348027-1280.webp",
+        "width": 1280,
+        "bytes": 100770
+      },
+      {
+        "src": "/images/responsive/dt-shipper-2e65348027-1600.webp",
+        "width": 1600,
+        "bytes": 137210
+      },
+      {
+        "src": "/images/responsive/dt-shipper-2e65348027-1920.webp",
+        "width": 1920,
+        "bytes": 175280
+      }
+    ]
+  },
+  "/images/dt-spread.jpg": {
+    "width": 1920,
+    "height": 1080,
+    "animated": false,
+    "originalBytes": 236392,
+    "variants": [
+      {
+        "src": "/images/responsive/dt-spread-2a14e56bed-240.webp",
+        "width": 240,
+        "bytes": 7054
+      },
+      {
+        "src": "/images/responsive/dt-spread-2a14e56bed-320.webp",
+        "width": 320,
+        "bytes": 10638
+      },
+      {
+        "src": "/images/responsive/dt-spread-2a14e56bed-480.webp",
+        "width": 480,
+        "bytes": 18524
+      },
+      {
+        "src": "/images/responsive/dt-spread-2a14e56bed-640.webp",
+        "width": 640,
+        "bytes": 27406
+      },
+      {
+        "src": "/images/responsive/dt-spread-2a14e56bed-960.webp",
+        "width": 960,
+        "bytes": 46748
+      },
+      {
+        "src": "/images/responsive/dt-spread-2a14e56bed-1280.webp",
+        "width": 1280,
+        "bytes": 67898
+      },
+      {
+        "src": "/images/responsive/dt-spread-2a14e56bed-1600.webp",
+        "width": 1600,
+        "bytes": 89444
+      },
+      {
+        "src": "/images/responsive/dt-spread-2a14e56bed-1920.webp",
+        "width": 1920,
+        "bytes": 114540
+      }
+    ]
+  },
+  "/images/dt-spread1.jpg": {
+    "width": 1920,
+    "height": 1080,
+    "animated": false,
+    "originalBytes": 275254,
+    "variants": [
+      {
+        "src": "/images/responsive/dt-spread1-05154a4f5f-240.webp",
+        "width": 240,
+        "bytes": 7612
+      },
+      {
+        "src": "/images/responsive/dt-spread1-05154a4f5f-320.webp",
+        "width": 320,
+        "bytes": 11552
+      },
+      {
+        "src": "/images/responsive/dt-spread1-05154a4f5f-480.webp",
+        "width": 480,
+        "bytes": 20850
+      },
+      {
+        "src": "/images/responsive/dt-spread1-05154a4f5f-640.webp",
+        "width": 640,
+        "bytes": 31710
+      },
+      {
+        "src": "/images/responsive/dt-spread1-05154a4f5f-960.webp",
+        "width": 960,
+        "bytes": 54032
+      },
+      {
+        "src": "/images/responsive/dt-spread1-05154a4f5f-1280.webp",
+        "width": 1280,
+        "bytes": 77132
+      },
+      {
+        "src": "/images/responsive/dt-spread1-05154a4f5f-1600.webp",
+        "width": 1600,
+        "bytes": 104210
+      },
+      {
+        "src": "/images/responsive/dt-spread1-05154a4f5f-1920.webp",
+        "width": 1920,
+        "bytes": 132620
+      }
+    ]
+  },
+  "/images/dt-spread2.jpg": {
+    "width": 1920,
+    "height": 1080,
+    "animated": false,
+    "originalBytes": 183216,
+    "variants": [
+      {
+        "src": "/images/responsive/dt-spread2-746d304642-240.webp",
+        "width": 240,
+        "bytes": 4864
+      },
+      {
+        "src": "/images/responsive/dt-spread2-746d304642-320.webp",
+        "width": 320,
+        "bytes": 6970
+      },
+      {
+        "src": "/images/responsive/dt-spread2-746d304642-480.webp",
+        "width": 480,
+        "bytes": 11994
+      },
+      {
+        "src": "/images/responsive/dt-spread2-746d304642-640.webp",
+        "width": 640,
+        "bytes": 17866
+      },
+      {
+        "src": "/images/responsive/dt-spread2-746d304642-960.webp",
+        "width": 960,
+        "bytes": 32894
+      },
+      {
+        "src": "/images/responsive/dt-spread2-746d304642-1280.webp",
+        "width": 1280,
+        "bytes": 47972
+      },
+      {
+        "src": "/images/responsive/dt-spread2-746d304642-1600.webp",
+        "width": 1600,
+        "bytes": 66188
+      },
+      {
+        "src": "/images/responsive/dt-spread2-746d304642-1920.webp",
+        "width": 1920,
+        "bytes": 83092
+      }
+    ]
+  },
+  "/images/dt-v.jpg": {
+    "width": 1920,
+    "height": 1080,
+    "animated": false,
+    "originalBytes": 346723,
+    "variants": [
+      {
+        "src": "/images/responsive/dt-v-88d271ddb0-240.webp",
+        "width": 240,
+        "bytes": 6182
+      },
+      {
+        "src": "/images/responsive/dt-v-88d271ddb0-320.webp",
+        "width": 320,
+        "bytes": 9518
+      },
+      {
+        "src": "/images/responsive/dt-v-88d271ddb0-480.webp",
+        "width": 480,
+        "bytes": 17470
+      },
+      {
+        "src": "/images/responsive/dt-v-88d271ddb0-640.webp",
+        "width": 640,
+        "bytes": 27988
+      },
+      {
+        "src": "/images/responsive/dt-v-88d271ddb0-960.webp",
+        "width": 960,
+        "bytes": 55208
+      },
+      {
+        "src": "/images/responsive/dt-v-88d271ddb0-1280.webp",
+        "width": 1280,
+        "bytes": 92776
+      },
+      {
+        "src": "/images/responsive/dt-v-88d271ddb0-1600.webp",
+        "width": 1600,
+        "bytes": 136414
+      },
+      {
+        "src": "/images/responsive/dt-v-88d271ddb0-1920.webp",
+        "width": 1920,
+        "bytes": 187640
+      }
+    ]
+  },
+  "/images/dtimes-stack.jpg": {
+    "width": 1920,
+    "height": 1080,
+    "animated": false,
+    "originalBytes": 433760,
+    "variants": [
+      {
+        "src": "/images/responsive/dtimes-stack-4852779f42-240.webp",
+        "width": 240,
+        "bytes": 7102
+      },
+      {
+        "src": "/images/responsive/dtimes-stack-4852779f42-320.webp",
+        "width": 320,
+        "bytes": 11252
+      },
+      {
+        "src": "/images/responsive/dtimes-stack-4852779f42-480.webp",
+        "width": 480,
+        "bytes": 21862
+      },
+      {
+        "src": "/images/responsive/dtimes-stack-4852779f42-640.webp",
+        "width": 640,
+        "bytes": 37486
+      },
+      {
+        "src": "/images/responsive/dtimes-stack-4852779f42-960.webp",
+        "width": 960,
+        "bytes": 77884
+      },
+      {
+        "src": "/images/responsive/dtimes-stack-4852779f42-1280.webp",
+        "width": 1280,
+        "bytes": 129208
+      },
+      {
+        "src": "/images/responsive/dtimes-stack-4852779f42-1600.webp",
+        "width": 1600,
+        "bytes": 184170
+      },
+      {
+        "src": "/images/responsive/dtimes-stack-4852779f42-1920.webp",
+        "width": 1920,
+        "bytes": 253186
+      }
+    ]
+  },
+  "/images/dusty-times/dt-coin-B1HB0ebq.jpg": {
+    "width": 864,
+    "height": 1184,
+    "animated": false,
+    "originalBytes": 484750,
+    "variants": [
+      {
+        "src": "/images/responsive/dusty-times/dt-coin-B1HB0ebq-ea029d1a06-240.webp",
+        "width": 240,
+        "bytes": 11918
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt-coin-B1HB0ebq-ea029d1a06-320.webp",
+        "width": 320,
+        "bytes": 19094
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt-coin-B1HB0ebq-ea029d1a06-480.webp",
+        "width": 480,
+        "bytes": 36276
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt-coin-B1HB0ebq-ea029d1a06-640.webp",
+        "width": 640,
+        "bytes": 54756
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt-coin-B1HB0ebq-ea029d1a06-864.webp",
+        "width": 864,
+        "bytes": 84484
+      }
+    ]
+  },
+  "/images/dusty-times/dt-stack-CRBoKATR.webp": {
+    "width": 2000,
+    "height": 1333,
+    "animated": false,
+    "originalBytes": 336726,
+    "variants": [
+      {
+        "src": "/images/responsive/dusty-times/dt-stack-CRBoKATR-a12c2dda73-240.webp",
+        "width": 240,
+        "bytes": 7976
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt-stack-CRBoKATR-a12c2dda73-320.webp",
+        "width": 320,
+        "bytes": 12734
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt-stack-CRBoKATR-a12c2dda73-480.webp",
+        "width": 480,
+        "bytes": 24690
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt-stack-CRBoKATR-a12c2dda73-640.webp",
+        "width": 640,
+        "bytes": 40764
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt-stack-CRBoKATR-a12c2dda73-960.webp",
+        "width": 960,
+        "bytes": 82616
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt-stack-CRBoKATR-a12c2dda73-1280.webp",
+        "width": 1280,
+        "bytes": 132774
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt-stack-CRBoKATR-a12c2dda73-1600.webp",
+        "width": 1600,
+        "bytes": 189978
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt-stack-CRBoKATR-a12c2dda73-1920.webp",
+        "width": 1920,
+        "bytes": 249042
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt-stack-CRBoKATR-a12c2dda73-2000.webp",
+        "width": 2000,
+        "bytes": 292074
+      }
+    ]
+  },
+  "/images/dusty-times/dt3-back-B0-ftOug.jpg": {
+    "width": 5568,
+    "height": 3712,
+    "animated": false,
+    "originalBytes": 12536852,
+    "variants": [
+      {
+        "src": "/images/responsive/dusty-times/dt3-back-B0-ftOug-80bc0ce231-240.webp",
+        "width": 240,
+        "bytes": 1580
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt3-back-B0-ftOug-80bc0ce231-320.webp",
+        "width": 320,
+        "bytes": 2662
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt3-back-B0-ftOug-80bc0ce231-480.webp",
+        "width": 480,
+        "bytes": 5556
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt3-back-B0-ftOug-80bc0ce231-640.webp",
+        "width": 640,
+        "bytes": 9260
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt3-back-B0-ftOug-80bc0ce231-960.webp",
+        "width": 960,
+        "bytes": 17294
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt3-back-B0-ftOug-80bc0ce231-1280.webp",
+        "width": 1280,
+        "bytes": 27198
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt3-back-B0-ftOug-80bc0ce231-1600.webp",
+        "width": 1600,
+        "bytes": 37224
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt3-back-B0-ftOug-80bc0ce231-1920.webp",
+        "width": 1920,
+        "bytes": 49324
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt3-back-B0-ftOug-80bc0ce231-2400.webp",
+        "width": 2400,
+        "bytes": 68762
+      }
+    ]
+  },
+  "/images/dusty-times/dt5-snake-BbwukKQ-.webp": {
+    "width": 2000,
+    "height": 1333,
+    "animated": false,
+    "originalBytes": 177628,
+    "variants": [
+      {
+        "src": "/images/responsive/dusty-times/dt5-snake-BbwukKQ--f9234c735f-240.webp",
+        "width": 240,
+        "bytes": 8458
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt5-snake-BbwukKQ--f9234c735f-320.webp",
+        "width": 320,
+        "bytes": 13272
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt5-snake-BbwukKQ--f9234c735f-480.webp",
+        "width": 480,
+        "bytes": 23598
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt5-snake-BbwukKQ--f9234c735f-640.webp",
+        "width": 640,
+        "bytes": 35044
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt5-snake-BbwukKQ--f9234c735f-960.webp",
+        "width": 960,
+        "bytes": 59686
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt5-snake-BbwukKQ--f9234c735f-1280.webp",
+        "width": 1280,
+        "bytes": 86232
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt5-snake-BbwukKQ--f9234c735f-1600.webp",
+        "width": 1600,
+        "bytes": 113444
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt5-snake-BbwukKQ--f9234c735f-1920.webp",
+        "width": 1920,
+        "bytes": 140118
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt5-snake-BbwukKQ--f9234c735f-2000.webp",
+        "width": 2000,
+        "bytes": 155528
+      }
+    ]
+  },
+  "/images/dusty-times/dt5-stack-DH1tRoxe.webp": {
+    "width": 2000,
+    "height": 1333,
+    "animated": false,
+    "originalBytes": 331914,
+    "variants": [
+      {
+        "src": "/images/responsive/dusty-times/dt5-stack-DH1tRoxe-70e8c315f3-240.webp",
+        "width": 240,
+        "bytes": 6656
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt5-stack-DH1tRoxe-70e8c315f3-320.webp",
+        "width": 320,
+        "bytes": 10522
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt5-stack-DH1tRoxe-70e8c315f3-480.webp",
+        "width": 480,
+        "bytes": 19490
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt5-stack-DH1tRoxe-70e8c315f3-640.webp",
+        "width": 640,
+        "bytes": 31972
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt5-stack-DH1tRoxe-70e8c315f3-960.webp",
+        "width": 960,
+        "bytes": 64160
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt5-stack-DH1tRoxe-70e8c315f3-1280.webp",
+        "width": 1280,
+        "bytes": 110270
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt5-stack-DH1tRoxe-70e8c315f3-1600.webp",
+        "width": 1600,
+        "bytes": 164676
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt5-stack-DH1tRoxe-70e8c315f3-1920.webp",
+        "width": 1920,
+        "bytes": 228132
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt5-stack-DH1tRoxe-70e8c315f3-2000.webp",
+        "width": 2000,
+        "bytes": 285376
+      }
+    ]
+  },
+  "/images/dusty-times/dt6-book-D7eVpNhZ.jpg": {
+    "width": 1600,
+    "height": 1067,
+    "animated": false,
+    "originalBytes": 450464,
+    "variants": [
+      {
+        "src": "/images/responsive/dusty-times/dt6-book-D7eVpNhZ-972ffadaee-240.webp",
+        "width": 240,
+        "bytes": 5552
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt6-book-D7eVpNhZ-972ffadaee-320.webp",
+        "width": 320,
+        "bytes": 8734
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt6-book-D7eVpNhZ-972ffadaee-480.webp",
+        "width": 480,
+        "bytes": 16448
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt6-book-D7eVpNhZ-972ffadaee-640.webp",
+        "width": 640,
+        "bytes": 28328
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt6-book-D7eVpNhZ-972ffadaee-960.webp",
+        "width": 960,
+        "bytes": 64480
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt6-book-D7eVpNhZ-972ffadaee-1280.webp",
+        "width": 1280,
+        "bytes": 114714
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt6-book-D7eVpNhZ-972ffadaee-1600.webp",
+        "width": 1600,
+        "bytes": 184122
+      }
+    ]
+  },
+  "/images/dusty-times/dt7-shipper-CVjazZ6D.webp": {
+    "width": 1800,
+    "height": 1013,
+    "animated": false,
+    "originalBytes": 174408,
+    "variants": [
+      {
+        "src": "/images/responsive/dusty-times/dt7-shipper-CVjazZ6D-f8cc81bbfc-240.webp",
+        "width": 240,
+        "bytes": 8418
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt7-shipper-CVjazZ6D-f8cc81bbfc-320.webp",
+        "width": 320,
+        "bytes": 12596
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt7-shipper-CVjazZ6D-f8cc81bbfc-480.webp",
+        "width": 480,
+        "bytes": 22730
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt7-shipper-CVjazZ6D-f8cc81bbfc-640.webp",
+        "width": 640,
+        "bytes": 35016
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt7-shipper-CVjazZ6D-f8cc81bbfc-960.webp",
+        "width": 960,
+        "bytes": 64172
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt7-shipper-CVjazZ6D-f8cc81bbfc-1280.webp",
+        "width": 1280,
+        "bytes": 100322
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt7-shipper-CVjazZ6D-f8cc81bbfc-1600.webp",
+        "width": 1600,
+        "bytes": 141350
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt7-shipper-CVjazZ6D-f8cc81bbfc-1800.webp",
+        "width": 1800,
+        "bytes": 171160
+      }
+    ]
+  },
+  "/images/dusty-times/dt7-vip1-t_sGQ8Fx.webp": {
+    "width": 1200,
+    "height": 1600,
+    "animated": false,
+    "originalBytes": 61244,
+    "variants": [
+      {
+        "src": "/images/responsive/dusty-times/dt7-vip1-t_sGQ8Fx-1d2b9cb71f-240.webp",
+        "width": 240,
+        "bytes": 6492
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt7-vip1-t_sGQ8Fx-1d2b9cb71f-320.webp",
+        "width": 320,
+        "bytes": 9386
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt7-vip1-t_sGQ8Fx-1d2b9cb71f-480.webp",
+        "width": 480,
+        "bytes": 15454
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt7-vip1-t_sGQ8Fx-1d2b9cb71f-640.webp",
+        "width": 640,
+        "bytes": 21942
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt7-vip1-t_sGQ8Fx-1d2b9cb71f-960.webp",
+        "width": 960,
+        "bytes": 35786
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt7-vip1-t_sGQ8Fx-1d2b9cb71f-1200.webp",
+        "width": 1200,
+        "bytes": 50628
+      }
+    ]
+  },
+  "/images/dusty-times/dt7-vip2-CdRzWtLv.webp": {
+    "width": 1200,
+    "height": 1600,
+    "animated": false,
+    "originalBytes": 68056,
+    "variants": [
+      {
+        "src": "/images/responsive/dusty-times/dt7-vip2-CdRzWtLv-effa1aeded-240.webp",
+        "width": 240,
+        "bytes": 4404
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt7-vip2-CdRzWtLv-effa1aeded-320.webp",
+        "width": 320,
+        "bytes": 6504
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt7-vip2-CdRzWtLv-effa1aeded-480.webp",
+        "width": 480,
+        "bytes": 10800
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt7-vip2-CdRzWtLv-effa1aeded-640.webp",
+        "width": 640,
+        "bytes": 16296
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt7-vip2-CdRzWtLv-effa1aeded-960.webp",
+        "width": 960,
+        "bytes": 30360
+      },
+      {
+        "src": "/images/responsive/dusty-times/dt7-vip2-CdRzWtLv-effa1aeded-1200.webp",
+        "width": 1200,
+        "bytes": 49362
+      }
+    ]
+  },
+  "/images/dusty-times/dtspreads-DtbuvSGF.gif": {
+    "width": 1000,
+    "height": 523,
+    "animated": true,
+    "originalBytes": 1000154,
+    "variants": [
+      {
+        "src": "/images/responsive/dusty-times/dtspreads-DtbuvSGF-7185e2cc52-240.webp",
+        "width": 240,
+        "bytes": 36582
+      },
+      {
+        "src": "/images/responsive/dusty-times/dtspreads-DtbuvSGF-7185e2cc52-320.webp",
+        "width": 320,
+        "bytes": 56356
+      },
+      {
+        "src": "/images/responsive/dusty-times/dtspreads-DtbuvSGF-7185e2cc52-480.webp",
+        "width": 480,
+        "bytes": 107324
+      },
+      {
+        "src": "/images/responsive/dusty-times/dtspreads-DtbuvSGF-7185e2cc52-640.webp",
+        "width": 640,
+        "bytes": 170508
+      },
+      {
+        "src": "/images/responsive/dusty-times/dtspreads-DtbuvSGF-7185e2cc52-960.webp",
+        "width": 960,
+        "bytes": 430964
+      },
+      {
+        "src": "/images/responsive/dusty-times/dtspreads-DtbuvSGF-7185e2cc52-1000.webp",
+        "width": 1000,
+        "bytes": 564716
+      }
+    ]
+  },
+  "/images/dusty-times/united-in-dirt-Cq730Nk2.webp": {
+    "width": 1920,
+    "height": 1383,
+    "animated": false,
+    "originalBytes": 232520,
+    "variants": [
+      {
+        "src": "/images/responsive/dusty-times/united-in-dirt-Cq730Nk2-ec6b9d7ae6-240.webp",
+        "width": 240,
+        "bytes": 8760
+      },
+      {
+        "src": "/images/responsive/dusty-times/united-in-dirt-Cq730Nk2-ec6b9d7ae6-320.webp",
+        "width": 320,
+        "bytes": 13178
+      },
+      {
+        "src": "/images/responsive/dusty-times/united-in-dirt-Cq730Nk2-ec6b9d7ae6-480.webp",
+        "width": 480,
+        "bytes": 23474
+      },
+      {
+        "src": "/images/responsive/dusty-times/united-in-dirt-Cq730Nk2-ec6b9d7ae6-640.webp",
+        "width": 640,
+        "bytes": 34980
+      },
+      {
+        "src": "/images/responsive/dusty-times/united-in-dirt-Cq730Nk2-ec6b9d7ae6-960.webp",
+        "width": 960,
+        "bytes": 63560
+      },
+      {
+        "src": "/images/responsive/dusty-times/united-in-dirt-Cq730Nk2-ec6b9d7ae6-1280.webp",
+        "width": 1280,
+        "bytes": 100670
+      },
+      {
+        "src": "/images/responsive/dusty-times/united-in-dirt-Cq730Nk2-ec6b9d7ae6-1600.webp",
+        "width": 1600,
+        "bytes": 144824
+      },
+      {
+        "src": "/images/responsive/dusty-times/united-in-dirt-Cq730Nk2-ec6b9d7ae6-1920.webp",
+        "width": 1920,
+        "bytes": 206196
+      }
+    ]
+  },
+  "/images/kairos-icon.jpg": {
+    "width": 1920,
+    "height": 1080,
+    "animated": false,
+    "originalBytes": 163548,
+    "variants": [
+      {
+        "src": "/images/responsive/kairos-icon-04a0da91e8-240.webp",
+        "width": 240,
+        "bytes": 4868
+      },
+      {
+        "src": "/images/responsive/kairos-icon-04a0da91e8-320.webp",
+        "width": 320,
+        "bytes": 6990
+      },
+      {
+        "src": "/images/responsive/kairos-icon-04a0da91e8-480.webp",
+        "width": 480,
+        "bytes": 11786
+      },
+      {
+        "src": "/images/responsive/kairos-icon-04a0da91e8-640.webp",
+        "width": 640,
+        "bytes": 17328
+      },
+      {
+        "src": "/images/responsive/kairos-icon-04a0da91e8-960.webp",
+        "width": 960,
+        "bytes": 28826
+      },
+      {
+        "src": "/images/responsive/kairos-icon-04a0da91e8-1280.webp",
+        "width": 1280,
+        "bytes": 41458
+      },
+      {
+        "src": "/images/responsive/kairos-icon-04a0da91e8-1600.webp",
+        "width": 1600,
+        "bytes": 53542
+      },
+      {
+        "src": "/images/responsive/kairos-icon-04a0da91e8-1920.webp",
+        "width": 1920,
+        "bytes": 67290
+      }
+    ]
+  },
+  "/images/portrait.webp": {
+    "width": 918,
+    "height": 885,
+    "animated": false,
+    "originalBytes": 360478,
+    "variants": [
+      {
+        "src": "/images/responsive/portrait-0f3f520cbc-240.webp",
+        "width": 240,
+        "bytes": 8756
+      },
+      {
+        "src": "/images/responsive/portrait-0f3f520cbc-320.webp",
+        "width": 320,
+        "bytes": 24424
+      },
+      {
+        "src": "/images/responsive/portrait-0f3f520cbc-480.webp",
+        "width": 480,
+        "bytes": 93196
+      },
+      {
+        "src": "/images/responsive/portrait-0f3f520cbc-640.webp",
+        "width": 640,
+        "bytes": 165156
+      },
+      {
+        "src": "/images/responsive/portrait-0f3f520cbc-918.webp",
+        "width": 918,
+        "bytes": 361418
+      }
+    ]
+  },
+  "/images/rally-sign.jpg": {
+    "width": 1920,
+    "height": 1080,
+    "animated": false,
+    "originalBytes": 169566,
+    "variants": [
+      {
+        "src": "/images/responsive/rally-sign-c451229623-240.webp",
+        "width": 240,
+        "bytes": 3462
+      },
+      {
+        "src": "/images/responsive/rally-sign-c451229623-320.webp",
+        "width": 320,
+        "bytes": 4952
+      },
+      {
+        "src": "/images/responsive/rally-sign-c451229623-480.webp",
+        "width": 480,
+        "bytes": 8372
+      },
+      {
+        "src": "/images/responsive/rally-sign-c451229623-640.webp",
+        "width": 640,
+        "bytes": 12470
+      },
+      {
+        "src": "/images/responsive/rally-sign-c451229623-960.webp",
+        "width": 960,
+        "bytes": 21886
+      },
+      {
+        "src": "/images/responsive/rally-sign-c451229623-1280.webp",
+        "width": 1280,
+        "bytes": 32342
+      },
+      {
+        "src": "/images/responsive/rally-sign-c451229623-1600.webp",
+        "width": 1600,
+        "bytes": 45382
+      },
+      {
+        "src": "/images/responsive/rally-sign-c451229623-1920.webp",
+        "width": 1920,
+        "bytes": 62530
+      }
+    ]
+  },
+  "/images/scope-desktop.jpg": {
+    "width": 1920,
+    "height": 1080,
+    "animated": false,
+    "originalBytes": 193609,
+    "variants": [
+      {
+        "src": "/images/responsive/scope-desktop-c4c7bde789-240.webp",
+        "width": 240,
+        "bytes": 1168
+      },
+      {
+        "src": "/images/responsive/scope-desktop-c4c7bde789-320.webp",
+        "width": 320,
+        "bytes": 1538
+      },
+      {
+        "src": "/images/responsive/scope-desktop-c4c7bde789-480.webp",
+        "width": 480,
+        "bytes": 2718
+      },
+      {
+        "src": "/images/responsive/scope-desktop-c4c7bde789-640.webp",
+        "width": 640,
+        "bytes": 4148
+      },
+      {
+        "src": "/images/responsive/scope-desktop-c4c7bde789-960.webp",
+        "width": 960,
+        "bytes": 8772
+      },
+      {
+        "src": "/images/responsive/scope-desktop-c4c7bde789-1280.webp",
+        "width": 1280,
+        "bytes": 20374
+      },
+      {
+        "src": "/images/responsive/scope-desktop-c4c7bde789-1600.webp",
+        "width": 1600,
+        "bytes": 46426
+      },
+      {
+        "src": "/images/responsive/scope-desktop-c4c7bde789-1920.webp",
+        "width": 1920,
+        "bytes": 74968
+      }
+    ]
+  },
+  "/images/scope-mobile.jpg": {
+    "width": 1920,
+    "height": 1080,
+    "animated": false,
+    "originalBytes": 145899,
+    "variants": [
+      {
+        "src": "/images/responsive/scope-mobile-7f4ece3862-240.webp",
+        "width": 240,
+        "bytes": 3546
+      },
+      {
+        "src": "/images/responsive/scope-mobile-7f4ece3862-320.webp",
+        "width": 320,
+        "bytes": 5642
+      },
+      {
+        "src": "/images/responsive/scope-mobile-7f4ece3862-480.webp",
+        "width": 480,
+        "bytes": 10420
+      },
+      {
+        "src": "/images/responsive/scope-mobile-7f4ece3862-640.webp",
+        "width": 640,
+        "bytes": 15636
+      },
+      {
+        "src": "/images/responsive/scope-mobile-7f4ece3862-960.webp",
+        "width": 960,
+        "bytes": 27630
+      },
+      {
+        "src": "/images/responsive/scope-mobile-7f4ece3862-1280.webp",
+        "width": 1280,
+        "bytes": 39708
+      },
+      {
+        "src": "/images/responsive/scope-mobile-7f4ece3862-1600.webp",
+        "width": 1600,
+        "bytes": 52780
+      },
+      {
+        "src": "/images/responsive/scope-mobile-7f4ece3862-1920.webp",
+        "width": 1920,
+        "bytes": 67658
+      }
+    ]
+  },
+  "/images/united-in-dirt.jpg": {
+    "width": 1920,
+    "height": 1080,
+    "animated": false,
+    "originalBytes": 387079,
+    "variants": [
+      {
+        "src": "/images/responsive/united-in-dirt-6b558a8a1a-240.webp",
+        "width": 240,
+        "bytes": 7510
+      },
+      {
+        "src": "/images/responsive/united-in-dirt-6b558a8a1a-320.webp",
+        "width": 320,
+        "bytes": 11332
+      },
+      {
+        "src": "/images/responsive/united-in-dirt-6b558a8a1a-480.webp",
+        "width": 480,
+        "bytes": 20584
+      },
+      {
+        "src": "/images/responsive/united-in-dirt-6b558a8a1a-640.webp",
+        "width": 640,
+        "bytes": 31238
+      },
+      {
+        "src": "/images/responsive/united-in-dirt-6b558a8a1a-960.webp",
+        "width": 960,
+        "bytes": 59494
+      },
+      {
+        "src": "/images/responsive/united-in-dirt-6b558a8a1a-1280.webp",
+        "width": 1280,
+        "bytes": 101992
+      },
+      {
+        "src": "/images/responsive/united-in-dirt-6b558a8a1a-1600.webp",
+        "width": 1600,
+        "bytes": 151402
+      },
+      {
+        "src": "/images/responsive/united-in-dirt-6b558a8a1a-1920.webp",
+        "width": 1920,
+        "bytes": 205414
+      }
+    ]
+  }
+}

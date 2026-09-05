@@ -236,3 +236,23 @@ video.proposal-gallery-media{pointer-events:auto}
 /* Cursor proximity updates once per frame, without trailing width transitions. */
 .contents-mark{width:6px;transform:scaleX(var(--mark-scale,1));transition:opacity 140ms ease}
 @media(prefers-reduced-motion:reduce){.contents-mark{transform:none;transition:none}}
+
+/* Compact links to the full project stories below Selected work. */
+.gallery-section{padding-bottom:48px}
+.case-studies{padding-top:0;padding-bottom:64px}
+.case-studies-row{display:flex;align-items:center;justify-content:space-between;gap:32px;border-top:1px solid var(--line);padding-top:24px}
+.case-studies h2{font-size:13px;color:var(--muted)}
+.case-study-links{display:flex;align-items:center;gap:40px}
+.case-study-links a{display:flex;align-items:center;gap:16px;min-height:44px;text-decoration:none;opacity:.7}
+.case-study-links img{display:block;object-fit:contain}
+.case-study-links span{font-size:14px;color:var(--muted)}
+.case-study-links a:hover,.case-study-links a:focus-visible{opacity:1}
+.case-study-links a:focus-visible{outline:2px solid var(--interaction);outline-offset:6px;border-radius:2px}
+@media(prefers-color-scheme:light){.case-study-links img{filter:brightness(0)}}
+@media(width<=600px){
+    .case-studies-row{align-items:flex-start;flex-direction:column;gap:16px}
+    .case-study-links{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px;width:100%}
+    .case-study-links a{justify-content:center}
+    .case-study-links span{display:none}
+    .case-study-links .case-study-logo-wide{width:80px;height:auto}
+}

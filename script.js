@@ -19,20 +19,7 @@ document.documentElement.addEventListener('pointerleave',()=>{outlinePointer=nul
 
 
 const gallery=document.querySelector('.proposal-gallery'),count=document.querySelector('.gallery-count');
-gallery.querySelector('img[src$="/vertiv.jpg"]')?.closest('figure').remove();
 const galleryTrack=gallery.querySelector('.proposal-gallery-track');
-gallery.querySelector('img[src$="/mcmsound.jpg"]')?.closest('figure')?.setAttribute('data-category','branding');
-const stanceCard=gallery.querySelector('img[src$="/stance-infiknit.jpg"]')?.closest('figure');
-const scopeCards=['desktop','mobile'].map(view=>{
- const label=view[0].toUpperCase()+view.slice(1);
- const figure=document.createElement('figure');
- figure.className='proposal-gallery-item';figure.dataset.category='digital';
- const image=document.createElement('img');
- image.className='proposal-gallery-media';image.src=`./images/scope-${view}.jpg`;image.alt=`Scope · ${label}`;image.loading='lazy';image.decoding='async';image.width=1920;image.height=1080;
- const caption=document.createElement('figcaption');caption.textContent=`Scope · ${label}`;
- figure.append(image,caption);return figure;
-});
-stanceCard?.replaceWith(...scopeCards);
 [...galleryTrack.querySelectorAll('figure[data-category="digital"]')].reverse().forEach(card=>galleryTrack.append(card));
 const vertivVideo=gallery.querySelector('video[src$="/vertiv.mp4"]')?.closest('figure');
 if(vertivVideo)galleryTrack.append(vertivVideo);

@@ -50,11 +50,12 @@ document.querySelectorAll('[data-image-cycle]').forEach(cycle => {
     slides[active].setAttribute('aria-hidden', 'false');
   }, Number(cycle.dataset.cycleInterval) || 1000);
 });
-// Freeze the GIF on its current frame; no replacement artwork or motion is required.
+// Freeze the animated image on its current frame; no replacement artwork or motion is required.
 const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
 document.querySelectorAll('.motion-toggle').forEach(button => {
   const img = button.previousElementSibling;
   const animatedSource = img.getAttribute('src');
+  const animatedSrcset = img.getAttribute('srcset');
   let paused = false;
   function setPaused(next) {
     if (paused === next) return;
@@ -63,8 +64,12 @@ document.querySelectorAll('.motion-toggle').forEach(button => {
       const canvas = document.createElement('canvas');
       canvas.width = img.naturalWidth; canvas.height = img.naturalHeight;
       canvas.getContext('2d').drawImage(img, 0, 0);
+      img.removeAttribute('srcset');
       img.src = canvas.toDataURL();
-    } else img.src = animatedSource;
+    } else {
+      if (animatedSrcset) img.setAttribute('srcset', animatedSrcset);
+      img.src = animatedSource;
+    }
     paused = next;
     button.textContent = paused ? 'Play animation' : 'Pause animation';
     button.setAttribute('aria-pressed', String(paused));
