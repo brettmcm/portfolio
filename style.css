@@ -238,11 +238,11 @@ video.proposal-gallery-media{pointer-events:auto}
 /* Case study rows below Selected work, styled like the Experience timeline. */
 .gallery-section{padding-bottom:48px}
 /* .case-studies{padding-top:0} */
-.case-study-list{display:grid;grid-template-columns:1fr;gap:28px;border-top:1px solid var(--line);padding-top:24px}
-.case-study-row{display:grid;grid-template-columns:120px minmax(0,1fr) auto;align-items:center;gap:48px;padding-bottom:24px;border-bottom:1px solid var(--line);text-decoration:none;color:inherit;transition:color 160ms ease,opacity 160ms ease}
+.case-study-list{display:grid;grid-template-columns:1fr;gap:12px;padding-top:0}
+.case-study-row{display:grid;grid-template-columns:100px minmax(0,1fr) auto;align-items:center;gap:12px;padding-bottom:12px;border-bottom:1px solid var(--line);text-decoration:none;color:inherit;transition:color 160ms ease,opacity 160ms ease}
 .case-study-row:last-child{padding-bottom:0;border-bottom:0}
-.case-study-logo{display:block;width:auto;height:24px;object-fit:contain;opacity:.75;transition:opacity 160ms ease}
-.case-study-logo-wide{height:20px}
+.case-study-logo{display:block;width:50px;height:50px;object-fit:contain;opacity:.75;transition:opacity 160ms ease}
+/* .case-study-logo-wide{height:20px} */
 .case-study-copy{display:grid;gap:6px}
 .case-study-copy .weeks{margin:0}
 .case-study-desc{color:var(--muted);font-size:13px;line-height:1.5}
