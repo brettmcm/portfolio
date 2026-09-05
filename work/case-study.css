@@ -1,0 +1,51 @@
+/* Shared case-study blocks inherit the portfolio's palette and typography. */
+.case-study::after{content:"";position:fixed;inset:auto 0 0;height:var(--page-edge-height,30dvh);z-index:5;pointer-events:none;background:linear-gradient(to bottom,transparent 0%,color-mix(in srgb,var(--canvas) 60%,transparent) 100%);-webkit-backdrop-filter:blur(1px);backdrop-filter:blur(1px);-webkit-mask-image:linear-gradient(to bottom,transparent 0%,#000 65%);mask-image:linear-gradient(to bottom,transparent 0%,#000 65%);opacity:var(--page-edge-opacity,0);transition:opacity 80ms linear}
+/* Keep keyboard-focused controls crisp while retaining pointer access throughout. */
+.case-study:has(:focus-visible)::after{opacity:0}
+@media(prefers-reduced-motion:reduce){.case-study::after{transition:none}}
+@media print{.case-study::after{display:none}}
+.case-study .hero,.case-study .section,.case-study footer{max-width:900px}
+.case-study .hero{padding-bottom:0}
+.case-hero-media{position:relative;width:100vw;margin:38px 0 0 calc((100vw - 100%) / -2);height:clamp(260px,36vw,440px);overflow:hidden;background:var(--surface)}
+.case-hero-media>img:first-child{display:block;width:100%;height:100%;object-fit:cover}
+.case-title-mark{display:block;width:120px;height:auto}
+@media(prefers-color-scheme:light){.case-title-mark{filter:invert(1)}}
+@media print{.case-title-mark{filter:invert(1)}}
+.case-title{display:flex;flex-direction:column;align-items:flex-start;gap:24px;padding-top:96px;text-align:left}
+.case-title h1{margin:0;font-size:20px}.case-title .client{margin:0;text-align:left}
+.case-block{width:100%;max-width:900px;margin:0 auto;padding:96px clamp(20px,3vw,44px);scroll-margin-top:48px;text-align:left}
+.case-block--wide{max-width:1200px}
+.case-block--text{display:block}
+.case-block--text>h2{margin-bottom:24px}
+.case-block--text>.section-copy{max-width:720px}
+.case-block--text .section-copy p{white-space:normal}
+.case-block--media{padding-top:24px;padding-bottom:24px}
+.case-block--split{display:flex;flex-direction:column;gap:48px;align-items:stretch}
+.case-block--split.case-block--about{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(0,1fr);gap:48px;align-items:start}
+.case-block--nested{padding:0;width:100%;min-width:0}
+.case-block--nested.case-block--text{max-width:720px}
+.case-statement{max-width:720px;font-size:clamp(16px,1.4vw,18px);line-height:1.6;letter-spacing:-.01em;color:var(--muted);text-align:left}
+.case-statement p{margin-bottom:1em}.case-emphasis{color:var(--ink)}.case-statement p:last-child{margin-bottom:0}
+.case-media{display:grid;gap:8px}.case-media figure{position:relative;margin:0;min-width:0;overflow:hidden;border-radius:2px;background:var(--surface)}
+.case-media img{display:block;width:100%;height:auto}
+.case-media--grid,.case-media--pair{grid-template-columns:repeat(2,minmax(0,1fr))}
+.case-media--grid img{aspect-ratio:1;object-fit:cover}
+.case-media--cycle{position:relative;display:block;aspect-ratio:1;overflow:hidden;border-radius:2px;background:var(--surface)}
+.case-media--cycle figure{position:absolute;inset:0;width:100%;height:100%;opacity:0;transition:opacity 180ms ease}
+.case-media--cycle figure.is-active{opacity:1}
+.case-media--cycle img{width:100%;height:100%;aspect-ratio:1;object-fit:cover}
+.case-media--mosaic{grid-template-columns:1fr .25fr 1fr;grid-template-rows:1fr 1fr;aspect-ratio:1092/813}
+.case-media--mosaic img{width:100%;height:100%;object-fit:cover}
+.case-media figcaption{padding:10px;color:var(--tertiary);font:11px/1.5 "Departure Mono",monospace}
+.motion-toggle{position:absolute;bottom:12px;right:12px;background:var(--canvas)}
+.case-top{font-size:11px;text-decoration:none}.case-top:hover{text-decoration:underline}
+.case-study .contact{padding-top:64px}
+@media(width<=760px){.case-block{padding-top:64px;padding-bottom:64px}.case-block--media{padding-top:12px;padding-bottom:12px}.case-block--split,.case-block--split.case-block--about{display:flex;gap:36px}.case-block--nested{padding:0}.case-block--text>h2{margin-bottom:20px}}
+@media(width<=480px){.case-media--pair{grid-template-columns:1fr}.case-media{gap:4px}}
+@media(prefers-reduced-motion:reduce){.case-media--cycle figure{transition:none}}
+/* The opening statement belongs to the project heading, not a separate section. */
+.case-block--intro{padding-top:24px;padding-bottom:80px}
+.case-block--intro .case-statement{max-width:640px}
+.case-block--intro .case-statement p{margin-bottom:12px}
+.case-block--intro .case-statement p:last-child{margin-bottom:0}
+@media print{.case-hero-media{width:100%;margin:24px 0;height:320px}.case-block{padding:28px 0;break-inside:avoid}.case-block--split{gap:24px}.case-block--nested{padding:0}.motion-toggle,.case-top{display:none}}
