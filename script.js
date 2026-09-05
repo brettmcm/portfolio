@@ -27,12 +27,12 @@ const allCards=[...gallery.querySelectorAll('figure')];
 let cards=allCards;
 const reduced=matchMedia('(prefers-reduced-motion: reduce)');
 const stride=()=>cards.length>1?cards[1].offsetLeft-cards[0].offsetLeft:cards[0].offsetWidth;
-const selected=()=>Math.max(0,Math.min(cards.length-1,Math.round(gallery.scrollLeft/stride())));
+const selected=()=>{const s=stride();if(!s)return 0;return Math.max(0,Math.min(cards.length-1,Math.round(gallery.scrollLeft/s)));};
 function step(direction){gallery.scrollTo({left:Math.max(0,Math.min(cards.length-1,selected()+direction))*stride(),behavior:reduced.matches?'instant':'smooth'});}
 function updateGallery(){const i=selected();count.textContent=`${String(i+1).padStart(2,'0')} / ${String(cards.length).padStart(2,'0')}`;document.querySelector('#previous').disabled=i===0;document.querySelector('#next').disabled=i===cards.length-1;}
 document.querySelector('#previous').addEventListener('click',()=>step(-1));document.querySelector('#next').addEventListener('click',()=>step(1));
 gallery.addEventListener('keydown',e=>{if(e.key==='ArrowRight'||e.key==='ArrowLeft'){e.preventDefault();step(e.key==='ArrowRight'?1:-1)}});
-gallery.addEventListener('scroll',updateGallery,{passive:true});addEventListener('resize',updateGallery);updateGallery();
+gallery.addEventListener('scroll',updateGallery,{passive:true});addEventListener('resize',updateGallery);
 let drag=null;
 gallery.addEventListener('pointerdown',e=>{if(e.pointerType==='touch'||e.button!==0||e.target.closest('video'))return;drag={id:e.pointerId,x:e.clientX,left:gallery.scrollLeft};gallery.setPointerCapture(e.pointerId);gallery.classList.add('is-dragging')});
 gallery.addEventListener('pointermove',e=>{if(drag&&drag.id===e.pointerId)gallery.scrollLeft=drag.left+drag.x-e.clientX;});

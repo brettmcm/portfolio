@@ -14,12 +14,6 @@ function update() {
     thumb.style.height = `${height}px`;
     thumb.style.transform = `translateY(${range > 0 ? (track - height) * root.scrollTop / range : 0}px)`;
     thumb.style.opacity = range > 0 ? '1' : '0';
-    // Match the Full Experience panel: soften the bottom 30% of the viewport,
-    // then lift the veil as the final content comes into view.
-    const fadeHeight = root.clientHeight * .3;
-    const remaining = Math.max(0, range - root.scrollTop);
-    document.body.style.setProperty('--page-edge-height', `${fadeHeight}px`);
-    document.body.style.setProperty('--page-edge-opacity', String(remaining <= 1 ? 0 : Math.min(1, remaining / Math.max(1, fadeHeight))));
   });
 }
 addEventListener('scroll', update, { passive: true });

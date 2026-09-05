@@ -1,9 +1,4 @@
 /* Shared case-study blocks inherit the portfolio's palette and typography. */
-.case-study::after{content:"";position:fixed;inset:auto 0 0;height:var(--page-edge-height,30dvh);z-index:5;pointer-events:none;background:linear-gradient(to bottom,transparent 0%,color-mix(in srgb,var(--canvas) 60%,transparent) 100%);-webkit-backdrop-filter:blur(1px);backdrop-filter:blur(1px);-webkit-mask-image:linear-gradient(to bottom,transparent 0%,#000 65%);mask-image:linear-gradient(to bottom,transparent 0%,#000 65%);opacity:var(--page-edge-opacity,0);transition:opacity 80ms linear}
-/* Keep keyboard-focused controls crisp while retaining pointer access throughout. */
-.case-study:has(:focus-visible)::after{opacity:0}
-@media(prefers-reduced-motion:reduce){.case-study::after{transition:none}}
-@media print{.case-study::after{display:none}}
 .case-study .hero,.case-study .section,.case-study footer{max-width:900px}
 .case-study .hero{padding-bottom:0}
 .case-hero-media{position:relative;width:100vw;margin:38px 0 0 calc((100vw - 100%) / -2);height:clamp(260px,36vw,440px);overflow:hidden;background:var(--surface)}
