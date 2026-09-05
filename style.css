@@ -209,7 +209,7 @@ video.proposal-gallery-media{pointer-events:auto}
 
 #experience-panel{cursor:auto}
 @media(width>760px){.about-portrait{height:var(--about-copy-height);width:auto;max-width:none;justify-self:end;object-fit:contain}}
-@media(width<=760px){.about-layout{grid-template-columns:1fr}.about-portrait{width:100%;height:auto}}
+@media(width<=760px){.about-layout{grid-template-columns:1fr}.about-portrait{display:none}}
 
 /* Align the labels with the endpoints, with a consistent text-to-line gap. */
 .hero-art-message{--hero-label-gap:18px;--hero-label-inset:clamp(20px,3vw,44px)}
@@ -230,10 +230,8 @@ video.proposal-gallery-media{pointer-events:auto}
 .testimonial-logo{display:block;width:40px;height:40px;flex-shrink:0}
 .testimonial-attribution{display:flex;flex-direction:column;gap:6px}
 
-@media(prefers-color-scheme:light){.testimonial-logo{filter:invert(1);opacity:.8}}
-
 .testimonial figcaption{justify-content:space-between}
-.testimonial-logo{order:2}
+.testimonial figcaption picture{order:2}
 
 /* Cursor proximity updates once per frame, without trailing width transitions. */
 .contents-mark{width:6px;transform:scaleX(var(--mark-scale,1));transition:opacity 140ms ease}
