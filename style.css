@@ -238,18 +238,19 @@ video.proposal-gallery-media{pointer-events:auto}
 /* Case study rows below Selected work, styled like the Experience timeline. */
 .gallery-section{padding-bottom:48px}
 /* .case-studies{padding-top:0} */
-.case-study-list{display:grid;grid-template-columns:1fr;gap:12px;padding-top:0}
-.case-study-row{display:grid;grid-template-columns:100px minmax(0,1fr) auto;align-items:center;gap:12px;padding-bottom:12px;border-bottom:1px solid var(--line);text-decoration:none;color:inherit;transition:color 160ms ease,opacity 160ms ease}
+.case-study-list{display:grid;grid-template-columns:1fr;gap:24px;padding-top:0}
+.case-study-row{display:grid;width: 100%;grid-template-columns: auto 1fr auto;align-items:center;gap:32px;padding-bottom:24px;border-bottom:1px solid var(--line);text-decoration:none;color:inherit;transition:color 160ms ease,opacity 160ms ease}
 .case-study-row:last-child{padding-bottom:0;border-bottom:0}
 .case-study-logo{display:block;width:50px;height:50px;object-fit:contain;opacity:.75;transition:opacity 160ms ease}
-/* .case-study-logo-wide{height:20px} */
-.case-study-copy{display:grid;gap:6px}
-.case-study-copy .weeks{margin:0}
+.case-study-copy{display:grid;gap:6px;width: 100%;}
+.case-study-copy .weeks{margin:0} 
 .case-study-desc{color:var(--muted);font-size:13px;line-height:1.5}
-.case-study-arrow{color:var(--tertiary);font:400 14px/1 "Departure Mono","SFMono-Regular",Consolas,monospace;transition:color 160ms ease,transform 160ms ease}
+.case-study-arrow{color:var(--tertiary);font:400 14px/1 "Departure Mono","SFMono-Regular",Consolas,monospace;transition:color 160ms ease,transform 160ms ease; margin-right: 12px;}
 .case-study-row:hover .case-study-logo,.case-study-row:focus-visible .case-study-logo{opacity:1}
 .case-study-row:hover .case-study-arrow,.case-study-row:focus-visible .case-study-arrow{color:var(--interaction);transform:translateX(2px)}
 .case-study-row:focus-visible{outline:2px solid var(--interaction);outline-offset:4px;border-radius:2px}
-@media(prefers-color-scheme:light){.case-study-logo{filter:brightness(0)}}
-@media(width<=760px){.case-study-row{grid-template-columns:96px minmax(0,1fr) auto;gap:16px}}
-@media(width<=480px){.case-study-row{grid-template-columns:80px minmax(0,1fr) auto;align-items:start}.case-study-logo-wide{width:72px;height:auto}}
+
+/* Logo wall */
+.logo-wall {display: grid;grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));gap: calc(16px + 2.5vw);}
+.logo-wall .logo {width:100%;object-fit: contain;aspect-ratio: 1;display: grid;place-items:center; grid-template-columns: 1fr; grid-template-rows: 1fr;}
+.logo-wall .logo picture, .logo-wall .logo img {width: 100%; height: 100%;}
