@@ -27,7 +27,7 @@ test('every published raster image has local responsive candidates and loading h
       }
     }
   }
-  assert.equal(count, 59);
+  assert.equal(count, 61);
 });
 
 test('new local raster images cannot silently bypass the optimization pipeline', () => {

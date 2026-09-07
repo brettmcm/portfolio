@@ -24,7 +24,7 @@ After changing content or renderers, run `node work/build.mjs`. The generated ca
 
 ## Responsive images
 
-All 59 published raster images (including animations) use generated WebP candidates, intrinsic dimensions, and CSS-aware `sizes`/`srcset`. Case-study heroes load eagerly with high priority; remaining images load lazily and decode asynchronously. SVG logos remain resolution-independent. The homepage gallery is static HTML, including Scope, so responsive candidates are available before JavaScript runs.
+All 61 published raster images (including animations) use generated WebP candidates, intrinsic dimensions, and CSS-aware `sizes`/`srcset`. Case-study heroes load eagerly with high priority; remaining images load lazily and decode asynchronously. SVG logos remain resolution-independent. The homepage gallery is static HTML, including Scope, so responsive candidates are available before JavaScript runs.
 
 Generated assets and `images/responsive-manifest.json` are committed: hosting and preview still need no dependencies or build step. Originals remain untouched. Candidate widths range from 240 to 2400 pixels, never exceeding the original. Filenames include a source/settings hash for cache invalidation. Animated WebP preserves frame timing and looping, and pause/play temporarily removes and restores `srcset`.
 

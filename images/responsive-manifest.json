@@ -2488,6 +2488,102 @@
       }
     ]
   },
+  "/images/stir-sessions.jpg": {
+    "width": 1920,
+    "height": 1080,
+    "animated": false,
+    "originalBytes": 435538,
+    "variants": [
+      {
+        "src": "/images/responsive/stir-sessions-5fad66a4d7-240.webp",
+        "width": 240,
+        "bytes": 4946
+      },
+      {
+        "src": "/images/responsive/stir-sessions-5fad66a4d7-320.webp",
+        "width": 320,
+        "bytes": 7504
+      },
+      {
+        "src": "/images/responsive/stir-sessions-5fad66a4d7-480.webp",
+        "width": 480,
+        "bytes": 13178
+      },
+      {
+        "src": "/images/responsive/stir-sessions-5fad66a4d7-640.webp",
+        "width": 640,
+        "bytes": 19884
+      },
+      {
+        "src": "/images/responsive/stir-sessions-5fad66a4d7-960.webp",
+        "width": 960,
+        "bytes": 39946
+      },
+      {
+        "src": "/images/responsive/stir-sessions-5fad66a4d7-1280.webp",
+        "width": 1280,
+        "bytes": 79598
+      },
+      {
+        "src": "/images/responsive/stir-sessions-5fad66a4d7-1600.webp",
+        "width": 1600,
+        "bytes": 154558
+      },
+      {
+        "src": "/images/responsive/stir-sessions-5fad66a4d7-1920.webp",
+        "width": 1920,
+        "bytes": 270908
+      }
+    ]
+  },
+  "/images/tbg.jpg": {
+    "width": 1920,
+    "height": 1080,
+    "animated": false,
+    "originalBytes": 273252,
+    "variants": [
+      {
+        "src": "/images/responsive/tbg-e37b7e8709-240.webp",
+        "width": 240,
+        "bytes": 4382
+      },
+      {
+        "src": "/images/responsive/tbg-e37b7e8709-320.webp",
+        "width": 320,
+        "bytes": 6478
+      },
+      {
+        "src": "/images/responsive/tbg-e37b7e8709-480.webp",
+        "width": 480,
+        "bytes": 11330
+      },
+      {
+        "src": "/images/responsive/tbg-e37b7e8709-640.webp",
+        "width": 640,
+        "bytes": 17016
+      },
+      {
+        "src": "/images/responsive/tbg-e37b7e8709-960.webp",
+        "width": 960,
+        "bytes": 30984
+      },
+      {
+        "src": "/images/responsive/tbg-e37b7e8709-1280.webp",
+        "width": 1280,
+        "bytes": 53120
+      },
+      {
+        "src": "/images/responsive/tbg-e37b7e8709-1600.webp",
+        "width": 1600,
+        "bytes": 85840
+      },
+      {
+        "src": "/images/responsive/tbg-e37b7e8709-1920.webp",
+        "width": 1920,
+        "bytes": 129680
+      }
+    ]
+  },
   "/images/united-in-dirt.jpg": {
     "width": 1920,
     "height": 1080,
