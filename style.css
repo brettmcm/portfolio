@@ -26,6 +26,14 @@ nav,footer,.hero-meta { display:flex; align-items:center; justify-content:space-
 .pdf-button { display:inline-flex; align-items:center; justify-content:center; min-height:30px; padding:0 11px; border:1px solid var(--line); border-radius:5px; background:transparent; color:var(--ink); font:500 11px/1 "Departure Mono","SFMono-Regular",Consolas,monospace; text-decoration:none; cursor:pointer; transition:border-color 160ms ease,color 160ms ease; }
 .pdf-button:hover { border-color:var(--tertiary); color:var(--interaction); }
 .pdf-button:focus-visible { outline:2px solid var(--interaction); outline-offset:3px; }
+.hero > nav .proposal-actions { gap:8px; flex-shrink:0; }
+.signal-button { gap:9px; min-height:36px; padding:0 14px; border-radius:6px; font-family:inherit; font-size:13px; font-weight:500; line-height:1; }
+.signal-dot { position:relative; flex:0 0 6px; width:6px; height:6px; border-radius:50%; background:currentColor; }
+.signal-dot::before { content:""; position:absolute; top:50%; left:50%; width:6px; height:6px; transform:translate(-50%,-50%); box-sizing:border-box; border:1px solid currentColor; border-radius:50%; opacity:0; animation:signal-pulse 3.6s ease-out infinite; pointer-events:none; }
+@keyframes signal-pulse { 0%{width:6px;height:6px;opacity:0} 8%{opacity:.9} 25%{opacity:.6} 50%,100%{width:18px;height:18px;opacity:0} }
+@media(width<=380px) { .hero > nav{gap:12px;flex-wrap:wrap} }
+@media(prefers-reduced-motion:reduce) { .signal-dot::before{animation:none} }
+
 .hero-content { width:min(100%,720px); margin-top:72px; }
 .client { margin-bottom:8px; color:var(--tertiary); }
 h1 { margin-bottom:20px; color:var(--ink); font-size:var(--heading-1-size); font-weight:var(--heading-1-weight); line-height:var(--heading-1-line-height); letter-spacing:var(--heading-1-letter-spacing); }
@@ -152,7 +160,6 @@ body.panel-open{overflow:hidden}
 .hero-art-message span{position:absolute;z-index:1;font-size:clamp(18px,2.1vw,25px);line-height:1.2;letter-spacing:-.025em}
 .hero-art-message .do-less{left:clamp(20px,3vw,44px);top:24%}.hero-art-message .better{right:clamp(20px,3vw,44px);bottom:24%}
 .hero-art-message svg{position:absolute;left:clamp(20px,3vw,44px);top:24%;width:calc(100% - 2 * clamp(20px,3vw,44px));height:52%;overflow:visible;fill:none;stroke:rgb(230 232 226 / 1);stroke-width:1;vector-effect:non-scaling-stroke}
-.hero-art-message circle{fill:rgb(230 232 226 / 1);stroke:none}
 .about-layout{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(0,1fr);gap:48px;align-items:start}
 .about-portrait{display:block;width:100%;height:auto;border-radius:4px}
 @media screen and (width<=760px){.hero{padding-bottom:112px}.section{padding-top:72px;padding-bottom:112px}.about-layout{gap:28px}}
@@ -210,7 +217,12 @@ video.proposal-gallery-media{pointer-events:auto}
 @media(width<=760px){.about-layout{grid-template-columns:1fr}.about-portrait{display:none}}
 
 /* Align the labels with the endpoints, with a consistent text-to-line gap. */
+.hero-art::after{content:"";position:absolute;top:50%;left:50%;height:62.4%;aspect-ratio:1;border:1px solid #e6e8e2;border-radius:50%;background:transparent;transform:translate(-50%,-50%);pointer-events:none}
 .hero-art-message{--hero-label-gap:18px;--hero-label-inset:clamp(20px,3vw,44px)}
+/* Keep endpoint dots round independently of the stretched SVG curve. */
+.hero-art-message::before,.hero-art-message::after{content:"";position:absolute;width:3px;height:3px;border-radius:50%;background:#e6e8e2;transform:translate(-50%,-50%);pointer-events:none}
+.hero-art-message::before{top:29.2%;left:calc(var(--hero-label-inset) + var(--do-less-width,75px) + var(--hero-label-gap))}
+.hero-art-message::after{top:70.8%;left:calc(100% - var(--hero-label-inset) - var(--better-width,65px) - var(--hero-label-gap))}
 .hero-art-message .do-less{top:29.2%;transform:translateY(-50%)}
 .hero-art-message .better{top:70.8%;bottom:auto;transform:translateY(-50%)}
 .hero-art-message svg{top:29.2%;height:41.6%;left:calc(var(--hero-label-inset) + var(--do-less-width,75px) + var(--hero-label-gap));width:calc(100% - 2 * var(--hero-label-inset) - var(--do-less-width,75px) - var(--better-width,65px) - 2 * var(--hero-label-gap))}
