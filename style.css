@@ -217,7 +217,6 @@ video.proposal-gallery-media{pointer-events:auto}
 @media(width<=760px){.about-layout{grid-template-columns:1fr}.about-portrait{display:none}}
 
 /* Align the labels with the endpoints, with a consistent text-to-line gap. */
-.hero-art::after{content:"";position:absolute;top:50%;left:50%;height:62.4%;aspect-ratio:1;border:1px solid #e6e8e2;border-radius:50%;background:transparent;transform:translate(-50%,-50%);pointer-events:none}
 .hero-art-message{--hero-label-gap:18px;--hero-label-inset:clamp(20px,3vw,44px)}
 /* Keep endpoint dots round independently of the stretched SVG curve. */
 .hero-art-message::before,.hero-art-message::after{content:"";position:absolute;width:3px;height:3px;border-radius:50%;background:#e6e8e2;transform:translate(-50%,-50%);pointer-events:none}
