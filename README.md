@@ -4,7 +4,7 @@ Standalone HTML, CSS, and JavaScript. No install or build step.
 
 Open index.html directly, or serve this folder with `python3 -m http.server 4187 --bind 127.0.0.1`.
 
-Edit personal copy in index.html. Images and the Departure Mono font are local. style.css preserves Ledger’s proposal stylesheet and contents navigation styling. The carousel has Branding, Editorial, and Digital tabs, previous/next buttons, and keyboard access. The page follows the system light/dark appearance. The header Contact button opens email. Full experience opens an accessible modal side panel, with Escape, Close, and backdrop dismissal.
+Edit personal copy in index.html. Images and the Switzer and Departure Mono fonts are local. style.css preserves Ledger’s proposal stylesheet and contents navigation styling. The carousel has Branding, Editorial, and Digital tabs, previous/next buttons, and keyboard access. The page follows the system light/dark appearance. The header Contact button opens email. Full experience opens an accessible modal side panel, with Escape, Close, and backdrop dismissal.
 
 Content note: Personal copy is a draft. The main experience section is a discipline-based overview. The full-experience panel reproduces the nine roles, titles, and dates from https://www.brettmcm.com/about, consulted September 4, 2026. Gallery images and project descriptions come from Ledger’s existing portfolio gallery.
 
