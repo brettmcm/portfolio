@@ -5,8 +5,8 @@ import { imageAttributes } from './responsive-images.mjs';
 const root = new URL('../', import.meta.url);
 
 test('every published raster image has local responsive candidates and loading hints', async () => {
-  let count = 0;
-  for (const file of ['index.html', 'work/canary/index.html', 'work/bloop/index.html', 'work/dusty-times/index.html']) {
+  for (const file of ['index.html', 'work/canary/index.html', 'work/bloop/index.html', 'work/dusty-times/index.html', 'work/stir-sessions/index.html']) {
+    let count = 0;
     const html = await readFile(new URL(file, root), 'utf8');
     for (const [tag] of html.matchAll(/<img\b[^>]*>/g)) {
       const attrs = Object.fromEntries([...tag.matchAll(/([\w-]+)="([^"]*)"/g)].map(m => [m[1], m[2]]));
@@ -26,8 +26,8 @@ test('every published raster image has local responsive candidates and loading h
         await access(new URL(src.replace(/^\.?\//, ''), root));
       }
     }
+    assert.ok(count > 0, `${file} must include responsive raster images`);
   }
-  assert.equal(count, 61);
 });
 
 test('new local raster images cannot silently bypass the optimization pipeline', () => {

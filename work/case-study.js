@@ -46,8 +46,7 @@ document.querySelectorAll('[data-image-cycle]').forEach(cycle => {
 });
 // Freeze the animated image on its current frame; no replacement artwork or motion is required.
 const reducedMotion = matchMedia('(prefers-reduced-motion: reduce)');
-document.querySelectorAll('.motion-toggle').forEach(button => {
-  const img = button.previousElementSibling;
+document.querySelectorAll('[data-animated-image]').forEach(img => {
   const animatedSource = img.getAttribute('src');
   const animatedSrcset = img.getAttribute('srcset');
   let paused = false;
@@ -65,10 +64,7 @@ document.querySelectorAll('.motion-toggle').forEach(button => {
       img.src = animatedSource;
     }
     paused = next;
-    button.textContent = paused ? 'Play animation' : 'Pause animation';
-    button.setAttribute('aria-pressed', String(paused));
   }
-  button.addEventListener('click', () => setPaused(!paused));
   img.addEventListener('load', () => { if (reducedMotion.matches && !paused) setPaused(true); });
   reducedMotion.addEventListener('change', () => setPaused(reducedMotion.matches));
   if (reducedMotion.matches) setPaused(true);

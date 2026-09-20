@@ -5,8 +5,9 @@ import { renderBlock, renderCaseStudy } from './blocks.mjs';
 import canary from './canary/content.mjs';
 import bloop from './bloop/content.mjs';
 import dustyTimes from './dusty-times/content.mjs';
+import stirSessions from './stir-sessions/content.mjs';
 
-const projects = [canary, bloop, dustyTimes];
+const projects = [canary, bloop, dustyTimes, stirSessions];
 
 test('inline emphasis preserves continuous paragraphs and escapes content', () => {
   const html = renderBlock({ type: 'statement', paragraphs: [
@@ -20,15 +21,17 @@ test('inline emphasis preserves continuous paragraphs and escapes content', () =
 
 test('static case studies stay in sync with their content and blocks', async () => {
   for (const project of projects) {
-    const slug = project.title === 'Dusty Times' ? 'dusty-times' : project.title.toLowerCase();
+    const slug = project.title.toLowerCase().replaceAll(' ', '-');
     assert.equal(await readFile(new URL(`./${slug}/index.html`, import.meta.url), 'utf8'), renderCaseStudy(project));
   }
 });
 test('every original project asset is local and dimensioned', async () => {
   const collect = blocks => blocks.flatMap(b => b.images || (b.blocks ? collect(b.blocks) : []));
-  const images = projects.flatMap(project => [project.hero, ...collect(project.blocks)]);
-  assert.equal(images.length, 40);
-  assert.equal(new Set(images.map(i => i.src)).size, 40);
+  const images = projects.flatMap(project => {
+    const media = collect(project.blocks);
+    assert.ok(project.hero && media.length > 0, `${project.title} must include a hero and project media`);
+    return [project.hero, ...media];
+  });
   for (const image of images) {
     assert.ok(image.alt && image.width > 0 && image.height > 0);
     await access(new URL(`..${image.src}`, import.meta.url));

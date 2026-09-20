@@ -38,3 +38,11 @@ export function imageAttributes(src, { sizes = 'auto, 100vw', eager = false, rel
   const fallback = entry.variants.find(v => v.width >= 960) || entry.variants.at(-1);
   return `src="${escape(url(fallback.src))}" srcset="${entry.variants.map(v => `${escape(url(v.src))} ${v.width}w`).join(', ')}" sizes="${escape(sizes)}" width="${entry.width}" height="${entry.height}"`;
 }
+
+export function sourceAttributes(src, { sizes = 'auto, 100vw', relative = false } = {}) {
+  const key = src.replace(/^\.\//, '/');
+  const entry = manifest[key];
+  const url = path => relative ? `.${path}` : path;
+  if (!entry) throw new Error(`Missing responsive asset: ${key}. Run python3 scripts/build-images.py.`);
+  return `srcset="${entry.variants.map(v => `${escape(url(v.src))} ${v.width}w`).join(', ')}" sizes="${escape(sizes)}"`;
+}

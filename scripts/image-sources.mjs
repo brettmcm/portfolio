@@ -2,8 +2,11 @@ import { readFile } from 'node:fs/promises';
 import canary from '../work/canary/content.mjs';
 import bloop from '../work/bloop/content.mjs';
 import dustyTimes from '../work/dusty-times/content.mjs';
+import stirSessions from '../work/stir-sessions/content.mjs';
 const collect = blocks => blocks.flatMap(b => b.images || (b.blocks ? collect(b.blocks) : []));
-const sources = [canary, bloop, dustyTimes].flatMap(p => [p.hero, ...collect(p.blocks)]).map(i => i.src);
+const sources = [canary, bloop, dustyTimes, stirSessions]
+  .flatMap(p => [p.hero, ...collect(p.blocks)])
+  .flatMap(i => [i.src, ...(i.sources || []).map(source => source.src)]);
 const homepage = await readFile(new URL('../index.html', import.meta.url), 'utf8');
 for (const [tag] of homepage.matchAll(/<img\b[^>]*>/g)) {
   const src = (tag.match(/data-image-original="([^"]+)"/) || tag.match(/\ssrc="([^"]+)"/))?.[1];
