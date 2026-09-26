@@ -46,7 +46,7 @@ export default {
       'The platform centered on people who value friendship, family, travel, and the small pleasures that fit between everything else. The product could come along for those moments. Alcohol was optional; the invitation to join in was built into the idea.',
       'That gave the work a useful question to answer: what would make a powdered mixer feel at home among the things you bring out when friends come over?'
     ]),
-    media([image('ss-sketch.png', 'Walking glass character sketch surrounded by gathering references and the finished circular badge')], 'single', { width: 'wide' }),
+    // media([image('ss-sketch.png', 'Walking glass character sketch surrounded by gathering references and the finished circular badge')], 'single', { width: 'wide' }),
     text('identity', 'Visual identity', [
       'The lettering is flowing and slightly unruly. Its slant gives the name movement, while the uneven forms keep it from feeling too polished. The stacked wordmark has enough presence to hold a package; the horizontal version leaves room for the character to walk right through the name.',
       'That smiling glass gives the identity someone to recognize. It brings a small dose of humor to the system and works inside a badge, beside the lettering, or on its own. A drink with somewhere to be.',
