@@ -520,6 +520,59 @@
       }
     ]
   },
+  "/images/blur-bg.jpg": {
+    "width": 2880,
+    "height": 2160,
+    "animated": false,
+    "originalBytes": 1425076,
+    "variants": [
+      {
+        "src": "/images/responsive/blur-bg-44926b2c3a-240.webp",
+        "width": 240,
+        "bytes": 1208
+      },
+      {
+        "src": "/images/responsive/blur-bg-44926b2c3a-320.webp",
+        "width": 320,
+        "bytes": 1680
+      },
+      {
+        "src": "/images/responsive/blur-bg-44926b2c3a-480.webp",
+        "width": 480,
+        "bytes": 3050
+      },
+      {
+        "src": "/images/responsive/blur-bg-44926b2c3a-640.webp",
+        "width": 640,
+        "bytes": 6242
+      },
+      {
+        "src": "/images/responsive/blur-bg-44926b2c3a-960.webp",
+        "width": 960,
+        "bytes": 34726
+      },
+      {
+        "src": "/images/responsive/blur-bg-44926b2c3a-1280.webp",
+        "width": 1280,
+        "bytes": 120718
+      },
+      {
+        "src": "/images/responsive/blur-bg-44926b2c3a-1600.webp",
+        "width": 1600,
+        "bytes": 251106
+      },
+      {
+        "src": "/images/responsive/blur-bg-44926b2c3a-1920.webp",
+        "width": 1920,
+        "bytes": 426084
+      },
+      {
+        "src": "/images/responsive/blur-bg-44926b2c3a-2400.webp",
+        "width": 2400,
+        "bytes": 728152
+      }
+    ]
+  },
   "/images/canary-boxes.jpg": {
     "width": 1920,
     "height": 1080,
@@ -2315,32 +2368,32 @@
     "width": 918,
     "height": 885,
     "animated": false,
-    "originalBytes": 360478,
+    "originalBytes": 538418,
     "variants": [
       {
-        "src": "/images/responsive/portrait-0f3f520cbc-240.webp",
+        "src": "/images/responsive/portrait-ba37087556-240.webp",
         "width": 240,
-        "bytes": 8756
+        "bytes": 8624
       },
       {
-        "src": "/images/responsive/portrait-0f3f520cbc-320.webp",
+        "src": "/images/responsive/portrait-ba37087556-320.webp",
         "width": 320,
-        "bytes": 24424
+        "bytes": 24130
       },
       {
-        "src": "/images/responsive/portrait-0f3f520cbc-480.webp",
+        "src": "/images/responsive/portrait-ba37087556-480.webp",
         "width": 480,
-        "bytes": 93196
+        "bytes": 92894
       },
       {
-        "src": "/images/responsive/portrait-0f3f520cbc-640.webp",
+        "src": "/images/responsive/portrait-ba37087556-640.webp",
         "width": 640,
-        "bytes": 165156
+        "bytes": 164856
       },
       {
-        "src": "/images/responsive/portrait-0f3f520cbc-918.webp",
+        "src": "/images/responsive/portrait-ba37087556-918.webp",
         "width": 918,
-        "bytes": 361418
+        "bytes": 360554
       }
     ]
   },

@@ -73,10 +73,6 @@ document.querySelector('#close-experience').addEventListener('click',closePanel)
 panel.addEventListener('cancel',e=>{e.preventDefault();closePanel()});
 panel.addEventListener('close',()=>document.body.classList.remove('panel-open'));
 panel.addEventListener('click',e=>{const r=panel.getBoundingClientRect();if(e.target===panel&&(e.clientX<r.left||e.clientX>r.right||e.clientY<r.top||e.clientY>r.bottom))closePanel()});
-const heroVideo=document.querySelector('.hero-art video');
-function syncHero(){if(reduced.matches||document.hidden)heroVideo.pause();else heroVideo.play().catch(()=>{});}
-reduced.addEventListener('change',syncHero);document.addEventListener('visibilitychange',syncHero);syncHero();
-
 const portfolioVideos=[...gallery.querySelectorAll('video')];
 portfolioVideos.forEach(video=>video.removeAttribute('controls'));
 function syncPortfolioVideos(){
