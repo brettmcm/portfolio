@@ -5,7 +5,7 @@ import { imageAttributes } from './responsive-images.mjs';
 const root = new URL('../', import.meta.url);
 
 test('every published raster image has local responsive candidates and loading hints', async () => {
-  for (const file of ['index.html', 'work/canary/index.html', 'work/bloop/index.html', 'work/dusty-times/index.html', 'work/stir-sessions/index.html']) {
+  for (const file of ['index.html', 'about/index.html', 'work/canary/index.html', 'work/bloop/index.html', 'work/dusty-times/index.html', 'work/stir-sessions/index.html']) {
     let count = 0;
     const html = await readFile(new URL(file, root), 'utf8');
     for (const [tag] of html.matchAll(/<img\b[^>]*>/g)) {
@@ -23,7 +23,7 @@ test('every published raster image has local responsive candidates and loading h
         const width = Number.parseInt(descriptor);
         assert.ok(width > previous && width <= Number(attrs.width) && width <= 2400);
         previous = width;
-        await access(new URL(src.replace(/^\.?\//, ''), root));
+        await access(src.startsWith('/') ? new URL(src.slice(1), root) : new URL(src, new URL(file, root)));
       }
     }
     assert.ok(count > 0, `${file} must include responsive raster images`);
