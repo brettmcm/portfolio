@@ -12,6 +12,9 @@ const text = (id, title, paragraphs) => ({ type: 'text', id, title, paragraphs }
 const media = (images, layout = 'single', extra = {}) => ({ type: 'media', images, layout, ...extra });
 
 export default {
+  path: '/work/dusty-times/',
+  seoTitle: 'Dusty Times Editorial Design',
+  socialImage: { src: '/images/dusty-times/dt6-book-D7eVpNhZ.jpg', alt: 'Dusty Times annual journal' },
   title: 'Dusty Times',
   discipline: 'Brand strategy + editorial direction',
   description: 'Dusty Times — rebuilding a legacy off-road newspaper as an annual lifestyle journal and media brand. A case study by Brett McMillin.',

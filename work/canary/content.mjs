@@ -12,6 +12,9 @@ const image = (file, alt, extra = {}) => {
 const text = (id, title, paragraphs) => ({ type: 'text', id, title, paragraphs });
 const media = (images, layout = 'single', extra = {}) => ({ type: 'media', images, layout, ...extra });
 export default {
+  path: '/work/canary/',
+  seoTitle: 'Canary Brand Identity',
+  socialImage: { src: '/images/canary-boxes.jpg', alt: 'Canary packaging and brand identity' },
   title: 'Canary', discipline: 'Brand identity + creative direction',
   description: 'Canary — a brand identity for sustainable personal care. A case study by Brett McMillin.',
   source: 'https://www.brettmcm.com/case-studies/canary',

@@ -1,4 +1,5 @@
 import { imageAttributes, mediaSizes, sourceAttributes } from '../scripts/responsive-images.mjs';
+import { renderSeoMetadata } from '../scripts/seo.mjs';
 // Pure HTML renderers: the same blocks can serve any case study, without a framework.
 const escape = value => String(value).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
 // A paragraph is plain text or an array of inline runs. Emphasis never adds a paragraph break.
@@ -26,7 +27,15 @@ export function renderBlock(block, nested = false, parent = null) {
 export function renderCaseStudy(project) {
   const entries = [{ id: 'top', label: project.title }, ...project.blocks.filter(b => b.id).map(b => ({ id: b.id, label: b.label || b.title }))];
   return `<!doctype html>
-<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="description" content="${escape(project.description)}"><title>${escape(project.title)} — Brett McMillin</title><link rel="icon" href="data:,"><link rel="stylesheet" href="/style.css"><link rel="stylesheet" href="/work/case-study.css?v=4"><script src="/work/case-study.js?v=5" defer></script></head>
+<html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+${renderSeoMetadata({ title: `${project.seoTitle} — Brett McMillin`, description: project.description, path: project.path, image: project.socialImage })}
+<link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="manifest" href="/site.webmanifest">
+<link rel="stylesheet" href="/style.css"><link rel="stylesheet" href="/work/case-study.css?v=4"><script src="/work/case-study.js?v=5" defer></script></head>
 <body class="case-study"><a class="skip-link" href="#overview">Skip to content</a><div class="proposal-scrollbar" aria-hidden="true"><div class="proposal-scrollbar-thumb"></div></div>
 <nav class="contents-nav" aria-label="Case study contents" data-proposal-contents>${entries.map(e => `<a href="#${e.id}"><span class="contents-mark" aria-hidden="true"></span><span class="contents-label">${escape(e.label)}</span></a>`).join('')}</nav>
 <main><header class="hero" id="top"><nav aria-label="Main navigation"><a class="wordmark" href="/">Brett McMillin</a><a class="pdf-button" href="mailto:hello@brettmcm.com">Contact</a></nav><div class="case-hero-media">${image(project.hero, true)}</div><div class="case-title"><h1>${project.mark ? `<img class="case-title-mark" src="${escape(project.mark)}" alt="${escape(project.title)}"${project.markWidth ? ` style="width:${Number(project.markWidth)}px"` : ''}>` : escape(project.title)}</h1><p class="client">${escape(project.discipline)}</p></div></header>

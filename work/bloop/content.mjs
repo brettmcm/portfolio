@@ -13,6 +13,9 @@ const text = (id, title, paragraphs) => ({ type: 'text', id, title, paragraphs }
 const media = (images, layout = 'single', extra = {}) => ({ type: 'media', images, layout, ...extra });
 
 export default {
+  path: '/work/bloop/',
+  seoTitle: 'Bloop Brand Strategy & Identity',
+  socialImage: { src: '/images/bloop-boards.jpg', alt: 'Bloop brand identity and creative direction' },
   title: 'Bloop',
   discipline: 'Brand strategy + identity',
   description: 'Bloop — a sensory-first brand for small-batch, toxin-free laundry soap. A case study by Brett McMillin.',

@@ -25,6 +25,9 @@ const text = (id, title, paragraphs) => ({ type: 'text', id, title, paragraphs }
 const media = (images, layout = 'single', extra = {}) => ({ type: 'media', images, layout, variant: 'bare', ...extra });
 
 export default {
+  path: '/work/stir-sessions/',
+  seoTitle: 'Stir Sessions Brand Identity & Packaging',
+  socialImage: { src: '/images/stir-sessions.jpg', alt: 'Stir Sessions brand identity' },
   title: 'Stir Sessions',
   discipline: 'Brand strategy, visual identity, and packaging direction',
   description: 'Stir Sessions — a cocktail and mocktail brand built around good times together. Brand strategy, visual identity, and packaging direction by Brett McMillin.',
