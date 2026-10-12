@@ -52,15 +52,6 @@ document.querySelector('#full-experience').addEventListener('click',()=>requestA
 
 
 }
-const aboutCopy=document.querySelector('.about-layout .section-copy');
-const aboutLayout=document.querySelector('.about-layout');
-if(aboutCopy&&aboutLayout){
-function sizeAboutPortrait(){aboutLayout.style.setProperty('--about-copy-height',aboutCopy.getBoundingClientRect().height+'px');}
-new ResizeObserver(sizeAboutPortrait).observe(aboutCopy);
-sizeAboutPortrait();
-
-}
-
 const journey=document.querySelector('.hero-journey');
 if(journey){
  const hero=journey.querySelector('.scroll-hero');
