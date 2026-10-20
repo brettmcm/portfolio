@@ -14,7 +14,7 @@ Preview `/work/canary`, `/work/bloop`, `/work/stir-sessions`, or `/work/dusty-ti
 
 - `work/canary/content.mjs`: ordered content and image properties.
 - `work/bloop/content.mjs`: Bloop narrative and media.
-- `work/dusty-times/content.mjs`: Dusty Times narrative and media.
+- `work/dusty-times/content.mjs`: Dusty Times narrative and media. The October 2026 expansion retains the original narrative and images, adding print details, editorial spreads, publication totals, VIP packaging, and the Hella partnership from the supplied Figma Slides deck. It uses the existing text, statement, single-image, pair, and mosaic blocks without changes to shared styling or components.
 - `work/stir-sessions/content.mjs`: Stir Sessions narrative and media. The color section describes the palette expansion and includes the updated color visual.
 - Paragraphs can be strings or arrays of inline runs: `['Normal text. ', { text: 'Emphasized sentence.', emphasis: true }, ' More normal text.']`. Emphasis applies the darker ink color with an inline span; only separate entries in `paragraphs` create paragraph breaks.
 - `work/blocks.mjs`: reusable static renderers for `text`, `statement`, `media`, and `split` blocks. Media supports `single`, `pair`, `grid`, and `mosaic` layouts; blocks support IDs, wider containers, and nesting. Images accept alt text, dimensions, captions, grid spans, and animated-image markers.
@@ -47,3 +47,9 @@ node --test work/blocks.test.mjs scripts/images.test.mjs
 ```
 
 For homepage images, `data-image-original` points to the editable original; add new images with their original `src`, or update `data-image-original` to replace an existing image. Case-study sources stay in each `content.mjs`. When adding an image with a new filename, also add its pixel width and height to that file’s `dimensions` map before running the image generator. The generator discovers only published images. Existing hashed variants are reused on subsequent builds. Keep the `sizes` fallbacks in `scripts/responsive-images.mjs` aligned with layout changes; browsers supporting `sizes="auto"` use the actual rendered width for lazy images.
+
+## Dusty Times spread sequence
+
+The On the page section uses a full-viewport sticky spread viewer. Native scrolling advances 24 JPEGs, copied from `~/Desktop/DT Spreads`, in the Figma deck’s order (slides 9–32). `images/dusty-times/spreads/order.json` records the verified node/file mapping. Nearby frames load on demand, backward scrolling reverses the sequence, and the viewer releases into Constraints. Landscape frames fill the viewport; portrait frames contain the complete image. A subtle 2px bar tracks scroll progress. Reduced-motion preferences show an ordinary ordered gallery; without JavaScript, all spreads remain available. The viewer uses the shared media block with the `scroll-spreads` layout.
+
+The image before Outcome is now a second full-viewport scroll section using the original desert racing photograph. Three vertically stacked SVG dot groups reveal 8 Years, 58 Features, and 845 Pages in sequence. Completed groups remain visible, with pauses between milestones and before release. The content aligns to the same 900px text container. `work/impact-progress.mjs` defines the three phases; reduced motion and no-JavaScript views show the complete diagram. Verify phase boundaries with `node --test work/impact-progress.test.mjs`.

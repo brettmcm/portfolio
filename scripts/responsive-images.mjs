@@ -7,11 +7,21 @@ const escape = value => String(value).replace(/[&<>"']/g, c => ({ '&': '&amp;', 
 export const contentWidth = (wide = false) => `(min(100vw, ${wide ? 1200 : 900}px) - 2 * clamp(20px, 3vw, 44px))`;
 export const gallerySizes = `auto, min(calc${contentWidth()}, 90vw)`;
 export function mediaSizes(block, item, nested = false, parent = null) {
+  if (block.layout === 'scroll-spreads' || block.layout === 'impact') return '100vw';
   let width = contentWidth(nested ? parent?.width === 'wide' : block.width === 'wide');
   const about = nested && parent?.variant === 'about';
+  const partnership = nested && parent?.variant === 'partnership';
   const mobileWidth = width;
+  if (partnership) width = `((${width} - 48px) / 2)`;
   if (about) width = `((${width} - 48px) / 2.65)`;
   let size = `calc${width}`;
+  if (block.layout === 'triptych') return `auto, (max-width: 480px) calc${mobileWidth}, calc((${width} - 16px) / 3)`;
+  if (block.variant === 'packaging-mosaic') {
+    const index = block.images.indexOf(item);
+    const fraction = index === 0 ? '1.65 / 3.65' : index === 1 ? '2 / 3.65' : '1 / 3.65';
+    const mobile = index < 2 ? `calc${mobileWidth}` : `calc((${mobileWidth} - 4px) / 2)`;
+    return `auto, (max-width: 480px) ${mobile}, calc(${width} * ${fraction})`;
+  }
   if (block.layout === 'pair' || block.layout === 'grid') {
     size = `calc((${width} - 8px) / 2)`;
     const mobile = block.layout === 'pair' ? `calc${mobileWidth}` : `calc((${mobileWidth} - 4px) / 2)`;
@@ -23,7 +33,7 @@ export function mediaSizes(block, item, nested = false, parent = null) {
     const mobile = end - start === 2 ? `calc((${mobileWidth} - 8px) * 5 / 9 + 4px)` : `calc((${mobileWidth} - 8px) * 4 / 9)`;
     return `auto, (max-width: 480px) ${mobile}, ${size}`;
   }
-  return `auto, ${about ? `(max-width: 760px) calc${mobileWidth}, ` : ''}${size}`;
+  return `auto, ${about || partnership ? `(max-width: 760px) calc${mobileWidth}, ` : ''}${size}`;
 }
 export function imageAttributes(src, { sizes = 'auto, 100vw', eager = false, relative = false, width, height } = {}) {
   const key = src.replace(/^\.\//, '/');

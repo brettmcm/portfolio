@@ -51,3 +51,16 @@ test('reusable text and media properties render without unsafe markup', () => {
   assert.match(renderBlock({ type: 'media', layout: 'pair', images: [{ src: '/example.webp', alt: 'Example', caption: 'A caption' }] }), /<figcaption>A caption<\/figcaption>/);
   assert.throws(() => renderBlock({ type: 'unknown' }), /Unknown block/);
 });
+
+test('Dusty Times scroll sequence includes every original spread in verified deck order', async () => {
+  const order = JSON.parse(await readFile(new URL('../images/dusty-times/spreads/order.json', import.meta.url), 'utf8'));
+  const block = dustyTimes.blocks.find(b => b.layout === 'scroll-spreads');
+  assert.equal(block.images.length, 24);
+  assert.deepEqual(block.images.map(i => i.src.split('/').at(-1)), order.map(i => i.file));
+  assert.equal(new Set(order.map(i => i.file)).size, 24);
+  const html = renderBlock(block);
+  assert.equal((html.match(/data-spread-template/g) || []).length, 23);
+  assert.match(html, /<noscript>/);
+  assert.doesNotMatch(html, /Skip spreads|<figcaption>/);
+  assert.match(html, /class="spread-progress"/);
+});
