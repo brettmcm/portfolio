@@ -4,7 +4,7 @@ const escape = value => String(value).replace(/[&<>"']/g, c => ({ '&': '&amp;', 
 const absolute = path => new URL(path, origin).href;
 
 // Static metadata: crawlers and link previews do not need to run JavaScript.
-export function renderSeoMetadata({ title, description, path, image }) {
+export function renderSeoMetadata({ title, description, path, image, video }) {
   const url = absolute(path);
   const person = {
     '@type': 'Person', '@id': `${origin}/#person`, name,
@@ -36,7 +36,10 @@ export function renderSeoMetadata({ title, description, path, image }) {
 <meta property="og:url" content="${escape(url)}">
 <meta property="og:image" content="${escape(absolute(image.src))}">
 <meta property="og:image:alt" content="${escape(image.alt)}">
-<meta name="twitter:card" content="summary_large_image">
+${video ? `<meta property="og:video" content="${escape(absolute(video.src))}">
+<meta property="og:video:secure_url" content="${escape(absolute(video.src))}">
+<meta property="og:video:type" content="video/mp4">
+` : ''}<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="${escape(title)}">
 <meta name="twitter:description" content="${escape(description)}">
 <meta name="twitter:image" content="${escape(absolute(image.src))}">

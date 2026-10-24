@@ -15,6 +15,7 @@ export default {
   path: '/work/canary/',
   seoTitle: 'Canary Brand Identity',
   socialImage: { src: '/images/canary-boxes.jpg', alt: 'Canary packaging and brand identity' },
+  socialVideo: { src: '/images/canary/provoke.mp4' },
   title: 'Canary', discipline: 'Brand identity + creative direction',
   description: 'Canary — a brand identity for sustainable personal care. A case study by Brett McMillin.',
   source: 'https://www.brettmcm.com/case-studies/canary',

@@ -16,6 +16,7 @@ export default {
   path: '/work/bloop/',
   seoTitle: 'Bloop Brand Strategy & Identity',
   socialImage: { src: '/images/bloop-boards.jpg', alt: 'Bloop brand identity and creative direction' },
+  socialVideo: { src: '/images/bloop/bloop2.mp4' },
   title: 'Bloop',
   discipline: 'Brand strategy + identity',
   description: 'Bloop — a sensory-first brand for small-batch, toxin-free laundry soap. A case study by Brett McMillin.',

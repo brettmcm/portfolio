@@ -25,6 +25,8 @@ After changing content or renderers, run `node work/build.mjs`. The generated ca
 
 ## Search and sharing metadata
 
+The homepage's Open Graph video is `videos/pattern.mp4` (1920 × 1080). Canary, Bloop, and Dusty Times declare `socialVideo` in their content files using the same MP4 assets as their homepage work-grid tiles. The shared metadata renderer emits absolute HTTPS video URLs and the MP4 media type; existing social images remain available as fallbacks.
+
 The homepage metadata lives in the `<head>` of `index.html`. Case studies use `scripts/seo.mjs` through the shared renderer: edit `seoTitle`, `path`, and `socialImage` in each project's `content.mjs`, then run `node work/build.mjs`. The existing `description` also supplies the search and sharing descriptions. Metadata includes absolute canonical URLs, Open Graph and Twitter cards, and JSON-LD describing Brett and the page; the homepage additionally declares the website name. Visible copy and artwork are independent of these fields.
 
 `sitemap.xml` lists only the homepage and four active case studies. Add future public pages explicitly. The legacy `/about/` page is no longer linked from navigation and is intentionally omitted; omission from the sitemap does not prevent indexing. `robots.txt` allows crawling and advertises the sitemap. After publishing, submit `https://brettmcm.com/sitemap.xml` in Google Search Console, inspect the homepage and case-study URLs, and request recrawling. Search Console submission has not been performed from this workspace.
