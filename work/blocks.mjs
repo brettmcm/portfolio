@@ -30,17 +30,18 @@ export function renderCaseStudy(project) {
   const entries = [{ id: 'top', label: project.title }, ...project.blocks.filter(b => b.id).map(b => ({ id: b.id, label: b.label || b.title }))];
   return `<!doctype html>
 <html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#080a0a" media="(prefers-color-scheme: dark)">
 ${renderSeoMetadata({ title: `${project.seoTitle} — Brett McMillin`, description: project.description, path: project.path, image: project.socialImage, video: project.socialVideo })}
-<link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48">
-<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
-<link rel="manifest" href="/site.webmanifest">
-<link rel="stylesheet" href="/style.css"><link rel="stylesheet" href="/work/case-study.css?v=26"><script type="module" src="/work/case-study.js?v=17"></script></head>
+<script src="/scripts/favicon.js?v=3"></script>
+<noscript><link rel="icon" type="image/svg+xml" sizes="any" href="/favicon.svg?v=3"></noscript>
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png?v=2">
+<link rel="manifest" href="/site.webmanifest?v=2">
+<link rel="stylesheet" href="/style.css?v=appearance-2"><link rel="stylesheet" href="/work/case-study.css?v=26"><script type="module" src="/work/case-study.js?v=17"></script></head>
 <body class="case-study"><a class="skip-link" href="#overview">Skip to content</a><div class="proposal-scrollbar" aria-hidden="true"><div class="proposal-scrollbar-thumb"></div></div>
 <nav class="contents-nav" aria-label="Case study contents" data-proposal-contents>${entries.map(e => `<a href="#${e.id}"><span class="contents-mark" aria-hidden="true"></span><span class="contents-label">${escape(e.label)}</span></a>`).join('')}</nav>
-<main><header class="hero" id="top"><nav aria-label="Main navigation"><a class="wordmark" href="/">Brett McMillin</a><a class="pdf-button" href="mailto:hello@brettmcm.com">Contact</a></nav><div class="case-hero-media">${image(project.hero, true)}${project.heroMark ? `<img class="case-hero-mark" src="${escape(project.heroMark)}" alt="" aria-hidden="true">` : ''}</div><div class="case-title"><h1>${project.mark ? `<img class="case-title-mark" src="${escape(project.mark)}" alt="${escape(project.title)}"${project.markWidth ? ` style="width:${Number(project.markWidth)}px"` : ''}>` : escape(project.title)}</h1><p class="client">${escape(project.discipline)}</p></div></header>
+<main><header class="hero" id="top"><nav aria-label="Main navigation"><a class="wordmark" href="/"><span class="wordmark-icon" aria-hidden="true"></span>Brett McMillin</a><a class="pdf-button" href="mailto:hello@brettmcm.com">Contact</a></nav><div class="case-hero-media">${image(project.hero, true)}${project.heroMark ? `<img class="case-hero-mark" src="${escape(project.heroMark)}" alt="" aria-hidden="true">` : ''}</div><div class="case-title"><h1>${project.mark ? `<img class="case-title-mark" src="${escape(project.mark)}" alt="${escape(project.title)}"${project.markWidth ? ` style="width:${Number(project.markWidth)}px"` : ''}>` : escape(project.title)}</h1><p class="client">${escape(project.discipline)}</p></div></header>
 ${project.blocks.map(b => renderBlock(b)).join('\n')}
 <section class="section contact" id="contact"><div class="contact-row"><div class="section-heading"><h2>Let’s talk</h2><p>and build the brand with care from the start.</p></div><a class="contact-button" href="mailto:hello@brettmcm.com">Email Brett</a></div></section><footer><a class="wordmark" href="/">Brett McMillin</a><a class="case-top" href="#top">Back to top ↑</a></footer></main></body></html>`;
 }

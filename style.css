@@ -161,24 +161,15 @@ body.panel-open{overflow:hidden}
 @media(width<=480px){.experience-heading{gap:16px}.experience-list article{grid-template-columns:80px 1fr;gap:16px}.text-button{font-size:10px}}
 @media print{#experience-panel,.work-tabs,.text-button{display:none!important}}
 
-.hero > nav > .wordmark { font-weight:400; }
+.hero > nav > .wordmark { display:inline-flex; align-items:center; gap:8px; font-weight:400; white-space:nowrap; }
+.wordmark-icon { display:block; flex:0 0 18px; width:18px; aspect-ratio:194.005 / 178.97; background:currentColor; mask:url('./images/brand-mark.svg') center / contain no-repeat; }
 /* Preserve the original rhythm at twice the section separation. */
 @media screen{.hero{padding-bottom:144px}.section{padding-top:96px;padding-bottom:160px}.contact{padding-bottom:144px}}
-.hero-art{position:relative;width:100vw;margin:38px 0 0 calc((100vw - 100%) / -2);height:clamp(338px,46.8vw,572px);overflow:hidden;background:#192219;color:#e6e8e2}
-.hero-art-image,.hero-art-shade{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
-.hero-art-shade{background:rgb(0 0 0 / .22)}
-.hero-art::after{content:"";position:absolute;z-index:1;inset:-20%;background:url("./images/noise.svg") repeat;background-size:160px 160px;opacity:.18;pointer-events:none;animation:hero-noise 800ms steps(2,end) infinite}
 @keyframes hero-noise{0%{transform:translate3d(0,0,0)}25%{transform:translate3d(2%,-3%,0)}50%{transform:translate3d(-3%,2%,0)}75%{transform:translate3d(3%,3%,0)}100%{transform:translate3d(-2%,-2%,0)}}
-@media(prefers-reduced-motion:reduce){.hero-art::after{animation:none}}
-.hero-art-message{z-index:2}
-.hero-art-message{position:absolute;inset:0;max-width:900px;width:100%;margin:auto;padding:clamp(20px,3vw,44px);display:flex;justify-content:space-between;align-items:flex-start}
-.hero-art-message span{position:absolute;z-index:1;font-size:clamp(18px,2.1vw,25px);line-height:1.2;letter-spacing:-.025em}
-.hero-art-message .do-less{left:clamp(20px,3vw,44px);top:24%}.hero-art-message .better{right:clamp(20px,3vw,44px);bottom:24%}
-.hero-art-message svg{position:absolute;left:clamp(20px,3vw,44px);top:24%;width:calc(100% - 2 * clamp(20px,3vw,44px));height:52%;overflow:visible;fill:none;stroke:rgb(230 232 226 / 1);stroke-width:1;vector-effect:non-scaling-stroke}
 .about-layout{display:grid;grid-template-columns:minmax(0,1.65fr) minmax(0,1fr);gap:48px;align-items:start}
 .about-portrait{display:block;width:100%;height:auto;aspect-ratio:1/1;object-fit:cover;border-radius:4px}
 @media screen and (width<=760px){.hero{padding-bottom:112px}.section{padding-top:72px;padding-bottom:112px}.about-layout{gap:28px}}
-@media(width<=560px){.about-layout{grid-template-columns:1fr}.about-portrait{width:100%}.hero-art-message svg{left:30%;width:40%}.hero-art-message .do-less{top:24%}.hero-art-message .better{bottom:24%}}
+@media(width<=560px){.about-layout{grid-template-columns:1fr}.about-portrait{width:100%}}
 @media print{.hero-art{display:none}.about-layout{grid-template-columns:2fr 1fr;gap:24px}}
 .about-portrait{border-radius:2px}
 .experience-list article{display:block}
@@ -241,16 +232,6 @@ video.proposal-gallery-media{pointer-events:auto}
 @media screen and (width<=480px) { .about-layout { --portrait-zoom:1.5; } }
 @media screen and (width<=360px) { .about-layout { --portrait-zoom:1.6; } }
 
-/* Align the labels with the endpoints, with a consistent text-to-line gap. */
-.hero-art-message{--hero-label-gap:18px;--hero-label-inset:clamp(20px,3vw,44px)}
-/* Keep endpoint dots round independently of the stretched SVG curve. */
-.hero-art-message::before,.hero-art-message::after{content:"";position:absolute;width:3px;height:3px;border-radius:50%;background:#e6e8e2;transform:translate(-50%,-50%);pointer-events:none}
-.hero-art-message::before{top:29.2%;left:calc(var(--hero-label-inset) + var(--do-less-width,75px) + var(--hero-label-gap))}
-.hero-art-message::after{top:70.8%;left:calc(100% - var(--hero-label-inset) - var(--better-width,65px) - var(--hero-label-gap))}
-.hero-art-message .do-less{top:29.2%;transform:translateY(-50%)}
-.hero-art-message .better{top:70.8%;bottom:auto;transform:translateY(-50%)}
-.hero-art-message svg{top:29.2%;height:41.6%;left:calc(var(--hero-label-inset) + var(--do-less-width,75px) + var(--hero-label-gap));width:calc(100% - 2 * var(--hero-label-inset) - var(--do-less-width,75px) - var(--better-width,65px) - 2 * var(--hero-label-gap))}
-
 .testimonials-list{display:grid;gap:48px}
 .testimonial{margin:0}
 .testimonial + .testimonial{padding-top:48px;border-top:1px solid var(--line)}
@@ -300,7 +281,7 @@ video.proposal-gallery-media{pointer-events:auto}
 /* Scroll-driven selected work. Sticky positioning preserves native page scrolling. */
 .hero-journey { --hero-height:100vh; height:var(--hero-height); position:relative; overflow-anchor:none; }
 .hero-journey.is-enhanced { height:calc(var(--hero-height) + var(--hero-travel, 4200px)); margin-bottom:calc(-1 * var(--hero-release, 0px)); }
-.scroll-hero { position:sticky; top:0; height:var(--hero-height); max-width:none; padding:0; overflow:hidden; clip-path:inset(0); isolation:isolate; background:#182019; color:#fff; --ink:#fff; --muted:#e0e0dc; --tertiary:#d1d1cb; --line:#ffffff50; --interaction:#fff; }
+.scroll-hero { position:sticky; top:0; height:var(--hero-height); max-width:none; padding:0; overflow:hidden; clip-path:inset(0); isolation:isolate; background:var(--canvas); color:#fff; --ink:#fff; --muted:#e0e0dc; --tertiary:#d1d1cb; --line:#ffffff50; --interaction:#fff; }
 .hero-background,.hero-slide-image,.hero-scrim { position:absolute; inset:0; width:100%; height:100%; }
 .hero-background { z-index:0; inset:-1px; width:calc(100% + 2px); height:calc(100% + 2px); }
 .hero-slide-image { display:block; object-fit:cover; }
@@ -309,14 +290,14 @@ video.proposal-gallery-media{pointer-events:auto}
 .scroll-hero > nav { position:relative; z-index:4; width:100%; margin:0; padding:28px clamp(20px,3vw,44px); }
 .scroll-hero .contact-button { background:#fff; border-color:#fff; color:#151815; }
 .scroll-hero .signal-button { background:#0002; }
-.scroll-hero .hero-art-message { z-index:3; max-width:1200px; --hero-label-inset:clamp(20px,4vw,64px); pointer-events:none; }
-.scroll-hero .hero-art-message .do-less { top:30%; }
-.scroll-hero .hero-art-message .better { top:62%; }
-.scroll-hero .hero-art-message svg { top:30%; height:32%; stroke:#ffffffe0; }
-.scroll-hero .hero-art-message path { vector-effect:non-scaling-stroke; }
-.scroll-hero .hero-art-message::before { top:30%; }
-.scroll-hero .hero-art-message::after { top:62%; }
-.scroll-hero .hero-art-message > .hero-traveler { position:absolute; width:5px; height:5px; border-radius:50%; background:#fff; transform:translate(-50%,-50%); left:calc(var(--hero-label-inset) + var(--do-less-width,75px) + 18px); top:30%; }
+.scroll-hero .hero-type-art { position:absolute; z-index:3; left:50%; top:50%; width:min(84vw,1000px); aspect-ratio:472 / 107; transform:translate(-50%,-50%); pointer-events:none; }
+.scroll-hero .hero-type-row { display:contents; }
+.scroll-hero .hero-type-art img,.scroll-hero .hero-type-art svg { position:absolute; display:block; height:auto; max-width:none; overflow:visible; }
+.scroll-hero .hero-type-art .hero-brand-word { left:0; top:12.31%; width:38.79%; }
+.scroll-hero .hero-type-art .hero-hand-word { left:40.34%; top:0; width:25.42%; }
+.scroll-hero .hero-type-art .hero-build-word { left:67.08%; top:12.31%; width:32.92%; }
+.scroll-hero .hero-type-art .hero-soul-word { left:9.24%; top:48.89%; width:25%; }
+.scroll-hero .hero-type-art .hero-system-word { left:34.07%; top:56.64%; width:60.72%; }
 
 .home-page .contents-nav { mix-blend-mode:difference; color:#fff; }
 .home-page .contents-nav a { color:#a9adb2; }
@@ -332,10 +313,7 @@ footer > a:not(.wordmark) { text-underline-offset:4px; }
  .scroll-hero .proposal-actions { gap:6px; }
  .scroll-hero .signal-button,.scroll-hero .contact-button { padding-inline:11px; min-height:34px; font-size:12px; }
 
- .scroll-hero .hero-art-message .do-less,.scroll-hero .hero-art-message::before { top:35%; }
- .scroll-hero .hero-art-message .better,.scroll-hero .hero-art-message::after { top:65%; }
- .scroll-hero .hero-art-message svg { top:35%; height:30%; }
- .scroll-hero .hero-art-message > .hero-traveler { top:35%; }
+ .scroll-hero .hero-type-art { width:90vw; }
 
  footer { flex-wrap:wrap; gap:20px; }
  footer > span { width:100%; }

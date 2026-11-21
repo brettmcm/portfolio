@@ -55,15 +55,34 @@ document.querySelector('#full-experience').addEventListener('click',()=>requestA
 const journey=document.querySelector('.hero-journey');
 if(journey){
  const hero=journey.querySelector('.scroll-hero');
- const message=hero.querySelector('.hero-art-message');
- const svg=message.querySelector('svg');
- const path=svg.querySelector('path');
- const dot=message.querySelector('.hero-traveler');
+ const typeArt=hero.querySelector('.hero-type-art');
+ const handwriting=['hand','soul'].map(word=>{
+  let total=0;
+  const strokes=[...typeArt.querySelectorAll('[data-handwriting="'+word+'"]')].map(path=>{
+   const length=path.getTotalLength(),start=total;
+   total+=length;
+   path.style.strokeDasharray=String(length);
+   return {path,length,start};
+  });
+  return {strokes,total};
+ });
+ function drawWords(progress){
+  handwriting.forEach(({strokes,total},index)=>{
+   // Finish the last stroke as the hero starts its release into page scrolling.
+   const writingProgress=clamp(progress/.97);
+   const amount=reduced.matches?1:clamp(writingProgress*2-index);
+   strokes.forEach(({path,length,start})=>{
+    const drawn=Math.max(0,Math.min(length,amount*total-start));
+    path.style.strokeDashoffset=String(length-drawn);
+    path.style.visibility=drawn>0?'visible':'hidden';
+   });
+  });
+ }
  const background=hero.querySelector('.hero-background');
  const mobileHero=matchMedia('(max-width: 760px)');
  const slides=[...document.querySelector('#hero-slides').content.querySelectorAll('figure')];
  const images=new Map([[0,background.querySelector('img')]]);
- let travel=0,releaseSpan=0,pathLength=0,frame=0,lineLeft=0,lineTop=0;
+ let travel=0,releaseSpan=0,frame=0;
  const clamp=value=>Math.max(0,Math.min(1,value));
  function loadImage(index){
   if(index<0||index>=slides.length)return null;
@@ -93,22 +112,12 @@ if(journey){
   if(currentImage.complete&&currentImage.naturalWidth){
    images.forEach((image,i)=>{image.style.visibility=i===index||(mobileHero.matches&&i===0)?'visible':'hidden';});
   }
-  const point=path.getPointAtLength(progress*pathLength);
-  dot.style.left=`${lineLeft+point.x}px`;
-  dot.style.top=`${lineTop+point.y}px`;
+  drawWords(progress);
   hero.dataset.progress=progress.toFixed(4);
   hero.dataset.slide=String(index);
  }
  function schedule(){if(!frame)frame=requestAnimationFrame(updateHero);}
  function measure(){
-  message.style.setProperty('--do-less-width',message.querySelector('.do-less').getBoundingClientRect().width+'px');
-  message.style.setProperty('--better-width',message.querySelector('.better').getBoundingClientRect().width+'px');
-  const lineBounds=svg.getBoundingClientRect(),messageBounds=message.getBoundingClientRect();
-  const {width,height}=lineBounds;
-  lineLeft=lineBounds.left-messageBounds.left;lineTop=lineBounds.top-messageBounds.top;
-  svg.setAttribute('viewBox',`0 0 ${width} ${height}`);
-  path.setAttribute('d',`M 0 0 C ${width/2} 0 ${width/2} ${height} ${width} ${height}`);
-  pathLength=path.getTotalLength();
   travel=(slides.length-1)*Math.max(120,innerHeight*.22);
   releaseSpan=travel*.07;
   journey.style.setProperty('--hero-travel',`${travel}px`);
